@@ -1,0 +1,52 @@
+Create a database (.csv file) of businesses/traders making online environmental claims in New Zealand. 
+This list will be formulated via a general keyword search of pertinent terms to be provided by PublicVoice
+(for example, “sustainable”, “compostable”, “eco-friendly” etc.) across New Zealand trader/business websites. 
+
+
+Using ChatGPT we want a synopsis of the types of claims being made
+
+
+PublicVoice will supply the website addresses. This will include industry code. If no environmental claims are made (see #1) we also need to know this.
+
+PublicVoice will provide the website home page. The script will need to be able to navigate to and 
+extract the information from the relevant page – see the table below for some examples. 
+Note that some of the web pages will not make any environmental claims (e.g. https://www.tonystyreservice.co.nz/)
+
+Ideally, the solution will be hosted on a PublicVoice digital ocean droplet. This requirement is open to discussion.
+
+
+Ideally, the solution will be delivered within seven days.
+
+
+Website home page
+Relevant Page
+https://www.tonystyreservice.co.nz
+
+
+https://www.picspeanutbutter.com
+https://www.picspeanutbutter.com/go-to-stories/really-good-report/
+https://www.watties.co.nz
+
+
+https://www.myfoodbag.co.nz/
+
+
+https://www.burgerfuel.com/nz
+https://www.burgerfuel.com/nz/our-story/enviro-mental
+https://hellpizza.nz
+
+
+https://www.hallensteins.com
+https://www.hallensteinglasson.co.nz/sustainability
+https://www.bunnings.co.nz
+https://www.bunnings.co.nz/about-us/sustainability
+https://lapco.co.nz
+
+
+https://www.leatherland.co.nz
+
+
+https://www.airnewzealand.co.nz
+https://www.airnewzealand.co.nz/sustainability
+
+

@@ -1,0 +1,14 @@
+--1 create script.
+This will include setting up api keys for chat gpt.
+I've created a program flowchart which will show how the script will function
+
+--2 testing scripts and prompts.
+make sure the scripts are all working as intended, and check the our prompts for the api are working how we want them to
+and not returning false positives
+
+--3 optimization.
+This will mostly involve setting up threading for our script so that we can look at pages or websites at once.
+we greatly increase the speed of our script with this.
+
+--4 set up digital ocean vm.
+set up a python environment for vm, and add all of the relevant scripts and files.
