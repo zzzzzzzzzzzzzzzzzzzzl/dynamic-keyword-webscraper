@@ -9,13 +9,15 @@ class scrapedDomainTracker:
         if self.data:
             self.resetInprogress()
         else:
-            self.loadInData("data/websites.csv")
+            self.loadInData("data/inputData.csv")
             self.saveData()
 
     def loadInData(self, file):
+        sites = [i for i in readCsvFile(file)]
+        sites.pop(0)
         self.data = {
             "Completed": [],
-            "Incompleted": readCsvFile(file),
+            "Incompleted": sites,
             "Inprogress": [],
         }
 

@@ -1,4 +1,6 @@
 from scripts.fileManager import *
+import json
+import ast
 
 unwantedCharacters = [" ", "-"]
 
@@ -23,15 +25,18 @@ def readCsvFile(filename):
         data = []
         for row in csv_reader:
             if row:
-                print(row[0])
-                data.append(row[0])
+                data.append(row)
     return data
+
+
+def updateCsv(data, file):
+    with open(file, mode="a", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerow(data)
 
 
 def removeDuplicateFromTextWithKeyWords(arr):
     arr = sorted(arr, key=lambda x: len(x["textsWithKeyWords"]["text"]))
-    for i in arr:
-        print(i)
 
     def ifInSet(set, arr):
         newArr = []
@@ -44,7 +49,6 @@ def removeDuplicateFromTextWithKeyWords(arr):
     for i in range(len(arr)):
         for j in range(len(arr)):
             if i != j:
-                print(arr[i])
                 common = set(arr[i]["textsWithKeyWords"]["text"]).intersection(
                     set(arr[j]["textsWithKeyWords"]["text"])
                 )
@@ -59,3 +63,48 @@ def removeDuplicateFromTextWithKeyWords(arr):
     arr = sorted(arr, key=lambda x: len(x["textsWithKeyWords"]["text"]), reverse=True)
 
     return arr
+
+
+def getBoolKeywordsAndFlattenText(data):
+    textArr = []
+    boolkeywords = {}
+    keywords = [prepareString(word) for word in fileManager("keywords.json").loadData()]
+    for i in keywords:
+        boolkeywords[i] = False
+    for i in keywords:
+        for j in data:
+            for k in j["textsWithKeyWords"]["text"]:
+                if i in k:
+                    textArr.append(k)
+                    boolkeywords[i] = True
+    boolkeywords = list(boolkeywords.values())
+    return boolkeywords, textArr
+
+
+def getBoolKeywordsPage(data):
+    boolkeywords = {}
+    keywords = [prepareString(word) for word in fileManager("keywords.json").loadData()]
+    for i in keywords:
+        boolkeywords[i] = False
+    for i in keywords:
+        for k in data["text"]:
+            if i in k:
+                boolkeywords[i] = True
+    boolkeywords = list(boolkeywords.values())
+    return boolkeywords
+
+
+def chopchop(string):
+    string = string[4:]
+    substring = "https://"
+    index = string[4:].find(substring)
+    string1 = string[4:][index:]
+    string2 = string[: index + 4]
+    return string1, string2
+
+
+def get_csv_length(file_path):
+    with open(file_path, "r", encoding="utf-8-sig") as file:
+        reader = csv.reader(file)
+        data = list(reader)
+        return len(data)

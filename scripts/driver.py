@@ -10,7 +10,7 @@ from scripts.outputData import *
 
 
 class driver:
-    def __init__(self, initialUrl, idx, branchSize=5, timeOutAfter=1000) -> None:
+    def __init__(self, data, idx, branchSize=100, timeOutAfter=1000) -> None:
         self.idx = idx
         self.driver = self.configDriver()
         self.keywords = [
@@ -20,14 +20,15 @@ class driver:
         self.startTime = time.time()
         self.timeOutAfter = timeOutAfter
         self.timeout = False
+        self.link = data[0]
 
         self.visitedUrls = []
         self.textWithKeyWords = []
         self.internalLinks = []
         self.failedToGetUrl = []
-
-        self.newDomain(initialUrl)
-        self.getPageData(initialUrl)
+        self.data = data
+        self.newDomain(self.link)
+        self.getPageData(self.domain)
 
     def configDriver(self):
         options = webdriver.ChromeOptions()
@@ -57,11 +58,18 @@ class driver:
     def scrapeDomain(self):
         self.iterateThroughInternalLinks()
         self.close()
+        duplicatetext = self.textWithKeyWords[:]
         self.textWithKeyWords = removeDuplicateFromTextWithKeyWords(
             self.textWithKeyWords
         )
         if self.textWithKeyWords:
-            outputData(self.textWithKeyWords, self.domain).updateOutputFile()
+            outputData(
+                self.textWithKeyWords,
+                self.domain,
+                self.data,
+                self.keywords,
+                duplicatetext,
+            )
         # fileManager(f"{self.idx}.json", self.textWithKeyWords).save()
 
     def getRunTime(self):
@@ -76,18 +84,21 @@ class driver:
 
     def newDomain(self, url):
         self.url = url
-        self.driver.get(url)
-        self.domain = self.getPageDomain(url)
+        print(self.url)
+
+        try:
+            self.driver.get("https://" + url)
+            self.domain = "https://" + url
+        except:
+            self.driver.get("https://" + url)
+            self.domain = "https://" + url
 
         self.parseHtml()
-
-    def getPageDomain(self, url):
-        parsedUrl = urlparse(url)
-        return parsedUrl.scheme + "://" + parsedUrl.netloc
 
     def openUrl(self, url):
         if url not in self.visitedUrls:
             self.url = url
+
             try:
                 self.driver.get(url)
                 self.parseHtml()
@@ -127,19 +138,27 @@ class driver:
             ]
 
     def getInternalLinks(self):
+        time.sleep(0.1)
         internalLinks = []
         for anchor in self.soup.find_all("a"):
             href = anchor.get("href")
             if (
                 (not urlparse(href).netloc or self.domain in href)
                 and href
-                and "www." not in href
+                and " " not in href
+                and "@" not in href
+                # and "www." not in href
             ):
                 url = self.getFullUrl(href)
                 if url == True:
                     pass
                 elif url not in self.internalLinks:
-                    internalLinks.append(url)
+                    if "https" in url[4:]:
+                        a, b = chopchop(url)
+                        internalLinks.append(a)
+                        internalLinks.append(b)
+                    else:
+                        internalLinks.append(url)
 
         self.internalLinks = self.internalLinks + internalLinks
 
@@ -159,13 +178,18 @@ class driver:
             return
         else:
             recusions += 1
-            print(
-                f"thread:{self.idx}   iterateThroughInternalLinks   recursion:{recusions}   links:{len(self.internalLinks)}  runtime:{int(time.time()-self.startTime)}",
-            )
             while self.internalLinks and not self.timeout:
                 if self.internalLinks[0] not in self.visitedUrls:
                     goturl = self.getPageData(self.internalLinks[0])
                     if goturl:
+                        print(
+                            "idx  :",
+                            self.domain,
+                            "recursion  :",
+                            recusions,
+                            "links :",
+                            len(self.internalLinks),
+                        )
                         self.iterateThroughInternalLinks(recusions)
                 try:
                     self.internalLinks.pop(0)

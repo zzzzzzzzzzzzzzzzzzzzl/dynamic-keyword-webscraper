@@ -1,11 +1,12 @@
 [
+    "biodegradable",
     "carbonneutral",
     "carbonoffset",
-    "clean(beauty,energy)",
+    "cleanenergy",
     "climatefriendly",
     "compostable",
     "crueltyfree",
-    "eco*",
+    "eco",
     "ecoconscious",
     "ecofriendly",
     "energyefficient",
@@ -26,5 +27,16 @@
     "sustainablysourced",
     "waterefficient",
     "zeroemissions",
-    "zerowaste"
+    "zerowaste",
+    "renewable",
+    "carbonfootprint",
+    "reusable",
+    "rainforestalliancecertified",
+    "conservation",
+    "earthfriendly",
+    "fsc",
+    "offsettingemissions",
+    "climatepositive",
+    "carbonzero",
+    "greenhousegas"
 ]

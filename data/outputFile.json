@@ -1,922 +1,1568 @@
 [
-    {
-        "domain": "https://www.watties.co.nz",
-        "quotes": "Summary: The text mentions that the cans used for the products are 100% recyclable, indicating a commitment to sustainability.\n\nDirect quotes: \n- \"how our cans are 100% recyclable\"",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Find out why you should choose our NZ Grown and Plant Based products and how our cans are 100% recyclable.\u00a0",
-                        "Cans are 100% recyclable\u00a0"
-                    ],
-                    "keywords": [
-                        "recyclable"
-                    ]
-                },
-                "page": "https://www.watties.co.nz/why-watties/107856300158/3-great-sustainable-choices-from-watties"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.airnewzealand.co.nz",
-        "quotes": "There are no statements related to environmental or sustainability issues in the provided text.\n\nN/A",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "New Zealand has naturally stunning landscapes, friendly locals and heaps to do - all within short travelling distances."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.airnewzealand.co.nz/destination-new-zealand"
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "The Best Time to Plant a Tree was 20 Years ago. The Second Best Time is Now!",
+                    "Over 90% of the plants that we grow are natives with seeds eco-sourced from the Nelson/Tasman area."
+                ],
+                "keywords": [
+                    "eco"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Recognised as America's greenest city, Portland is passionate about treading more lightly on the Earth."
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://www.airnewzealand.co.nz/destination-usa"
+            "page": "https://www.moutereplantnursery.co.nz/"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Spring is a gorgeous time to visit Vancouver. Flowers are blooming, the whales are on the move and the city's people are embracing the joys of warmer weather. You can explore Stanley Park, the green jewel of inner-city Vancouver. Or catch a floatplane to Vancouver Island for walks around historic Victoria, followed by a Cowichan Valley wine tour. It's always a great time to head up to Grouse Mountain for sky-high views and bear photos. You can also throw in a road or train trip to the Rockies for good measure. Another popular attraction is the FlyOver Canada virtual flightseeing tour that delights passengers of all ages."
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://www.airnewzealand.co.nz/destination-vancouver"
+            "page": "https://www.moutereplantnursery.co.nz#page"
+        }
+    ],
+    [
+        "www.moutereplantnursery.co.nz",
+        "1",
+        "Agriculture",
+        "112",
+        "Nursery Production (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "\n\t\t\t\t\t\tFood Forests are a highly efficient, highly productive, sustainable way of growing food. In the new \n\t\t\t\t\t",
+                    "Suitable for containers or growing in the ground. Kept neatly clipped the dark-green foliage can cre..."
+                ],
+                "keywords": [
+                    "green",
+                    "sustainable"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Savour exciting Hong Kong's varied and contrasting delights, from natural splendour to vivacious nightlife."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.airnewzealand.co.nz/destination-asia"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.bunnings.co.nz",
-        "quotes": "Summary: The text does not contain any direct statements related to environmental or sustainability issues.\n\nQuotes: N/A",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We've got the D.I.Y. Advice and range to help bring out your inner green thumb"
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://www.bunnings.co.nz/products/garden"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.hallensteins.com",
-        "quotes": "The text mentions the use of organic cotton, which is certified by an independent third party, and the traceability of flax used in their linen range to ensure the environment is respected at every step of the process. \n\nDirect quotes: \n- \"At Hallenstein Brothers we use Asiatic cotton and Organic Cotton which is certified by an independent third party.\"\n- \"Traceability ensures the environment, as well as the producers, are respected at every step of the process.\"",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "\n\t\t\t\t\t\t\t\tCotton is a natural fibre that is used across our range of clothing in a variety of ways. Cotton is spun into yarn that can be woven into a soft and durable fabric. At Hallenstein Brothers we use Asiatic cotton and Organic Cotton which is certified by an independent third party. Cotton can be woven in a variety of ways to create every day fabrics for you to enjoy, including corduroy, denim, velour and fleece. Cotton is normally easy to care for through machine washing and hang drying but refer to care instructions to ensure the longevity of your garments.\t\t\t\t\t\t\t",
-                        "\n\t\t\t\t\t\t\t\tLinen is a natural fibre derived from flax. Lightweight and breathable, it is generally worn through the warmer months through shirting and tailoring. Made in a way we\u2019re proud of, our Linen Range is crafted from traceable flax produced exclusively in France, Belgium or the Netherlands. Traceability ensures the environment, as well as the producers, are respected at every step of the process. Our new range brings updated styling and soft yet durable wear. Great for any season, linen is a natural fibre that drapes nicely through pants and shirting which are perfect for both casual and formal wear. \t\t\t\t\t\t\t"
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.hallensteins.com/faqs"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.watties.co.nz",
-        "quotes": "Summary: The text mentions that Wattie's cans are recyclable, indicating a concern for environmental sustainability. \n\nDirect quotes: \n- \"Yes, all of our cans are recyclable.\" \n- (No direct quote, but the mention of recyclability implies a concern for environmental sustainability.)",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        " To stop our content appearing organically in your newsfeed, you must unlike our Facebook page.",
-                        "Facebook delivers content from a brand page to its users\u2019 newsfeeds in two ways: organically to those who have chosen to \u2018like\u2019 the page, and through advertising."
-                    ],
-                    "keywords": [
-                        "organic"
-                    ]
-                },
-                "page": "https://www.watties.co.nz/terms-of-use"
+            "page": "https://www.plantrescue.co.nz/shopping.html"
+        }
+    ],
+    [
+        "www.plantrescue.co.nz",
+        "1",
+        "Agriculture",
+        "112",
+        "Nursery Production (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Little Big Tree Company Christchurch New Zealand - Christchurch Tree Nursery, The Little Big Tree Company, Evergreen and Deciduous Trees, Established Trees"
+                ],
+                "keywords": [
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Are Wattie\u2019s cans recyclable?",
-                        "Yes, all of our cans are recyclable."
-                    ],
-                    "keywords": [
-                        "recyclable"
-                    ]
-                },
-                "page": "https://www.watties.co.nz/faqs"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.burgerfuel.com",
-        "quotes": "There are no statements related to environmental or sustainability issues in the provided text.",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Fresh natural aioli. Just another taste. Just another hit. Addiction made daily. \u200b",
-                        "You deserve nothing less than the best. That's why we leave no stone unturned in our relentless quest for the freshest, most pure, natural ingredients we can get our hands on. It's also why we make sure that your meal is made to order, when you order, and prepared with the utmost care, preparation, and burger making respect.",
-                        "Our sweet, tomato relish is crafted using whole fresh fruit and vegetables, selected herbs and natural spices. Naturally sweet and aged to perfection.",
-                        "Batch brewed tomato relish, naturally aged so the acid drops and the sweetness hops.",
-                        "Our chicken is the real deal - we never use fillers and it must be ethically raised. That's why we serve only 100% free range natural chicken breast - and say no to processing, hormones, additives, and GMO's."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com/nz/our-food/pure-ingredients"
+            "page": "https://www.littlebigtreecompany.co.nz/"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "\n\t\t\tEvergreen\t\t"
+                ],
+                "keywords": [
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "In the midst of our conversion into the digital era, we sometimes find ourselves on the edge of the fence, gazing over the paddocks trying to determine which grass is greener. The digital era ..."
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com#mm-2"
+            "page": "https://www.littlebigtreecompany.co.nz/product-category/tree/"
+        }
+    ],
+    [
+        "www.littlebigtreecompany.co.nz",
+        "1",
+        "Agriculture",
+        "112",
+        "Nursery Production (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Replanting native bush/forests is a positive way to improve our natural environment and can often be a requirement of Resource Consent. Native planting provides a wide range of benefits including increasing native biodiversity, creating habitat for native wildlife, stabilising soil, recreating linkages and vegetation sequences, enhancing water quality and the surrounding landscape."
+                ],
+                "keywords": [
+                    "natural"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "All-natural BurgerFuel Thickshakes made fresh to order."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com/nz/our-food/burgers"
+            "page": "https://www.erosioncontrol.co.nz#"
+        }
+    ],
+    [
+        "www.erosioncontrol.co.nz",
+        "1",
+        "Agriculture",
+        "113",
+        "Turf Growing"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Garlic is the plant every good kitchen garden needs, it's full of health benefits and a must-have in every pantry. It also acts as a great natural repellant against garden pests such as aphids, mites and white butterfly."
+                ],
+                "keywords": [
+                    "natural"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "You are an organic machine, a sensational human and your engine deserves the most pure, natural ingredients, ripped straight from mother natures sweet bosom before anyone's had the chance to defile them. Our super natural gourmet burgers are made to be eaten with pure, unadulterated, unbridled passion (there's no time for knives and forks here... but we're always down for a spoon, if you're offering) and every mouthful should be a celebration of the most beautiful things in life, like pure fuel and your bad assery."
-                    ],
-                    "keywords": [
-                        "natural",
-                        "organic"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com/nz/our-food/fuel-for-the-human-engine"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.myfoodbag.co.nz",
-        "quotes": "The text contains several statements related to environmental and sustainability issues. The first statement mentions \"sustainable packaging and ingredients,\" while the second statement highlights the lower greenhouse gas emissions of meal kits compared to supermarket-bought meals. The third statement talks about the company's efforts to monitor and reduce their greenhouse gas emissions and operational waste. The fourth statement emphasizes the role of Kiwi kids in shaping a sustainable New Zealand. Finally, the fifth statement mentions the company's continuous efforts to improve their packaging to reduce landfill and introduce recyclable alternatives.\n\nDirect quotes:\n- \"Great recipes, good choice and sustainable packaging and ingredients.\"\n- \"Research shows meal kits have lower average greenhouse gas emissions than supermarket-bought meals*.\"\n- \"Through innovative ideas and strong partnerships we are working to comprehensively monitor and reduce our greenhouse gas emissions and operational waste.\"\n- \"We currently have the 3rd highest rate of obesity in the OECD and Kiwi kids play a critical role in how we shape a sustainable New Zealand.\"\n- \"",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We're continuously reviewing and improving our packaging to ensure we reduce landfill and introduce recyclable alternatives, without compromising food quality and safety.",
-                        "Research shows meal kits have lower average greenhouse gas emissions than supermarket-bought meals*.",
-                        "Through innovative ideas and strong partnerships we are working to comprehensively monitor and reduce our greenhouse gas emissions and operational waste.",
-                        "Our boxes are made of 47% recycled cardboard & FSC certified virgin cardboard, MADE trays composed of 80% recycled plastic, and our ice packs are 100% water."
-                    ],
-                    "keywords": [
-                        "green",
-                        "recyclable",
-                        "recycled"
-                    ]
-                },
-                "page": "https://www.myfoodbag.co.nz/sustainability"
+            "page": "https://awapuni.co.nz/"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "green"
+                ],
+                "keywords": [
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Great recipes, good choice and sustainable packaging and ingredients.  "
-                    ],
-                    "keywords": [
-                        "sustainable"
-                    ]
-                },
-                "page": "https://www.myfoodbag.co.nz#"
+            "page": "https://awapuni.co.nz/category/Specials"
+        }
+    ],
+    [
+        "awapuni.co.nz",
+        "1",
+        "Agriculture",
+        "112",
+        "Nursery Production (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "We want to help farmers elevate the pride they have in their land by helping them improve biodiversity and erosion/nutrient loss on their farms as a part of their work to become excellent environmental stewards.",
+                    "We want to help farmers elevate the pride they have in their land by helping them improve biodiversity and erosion/nutrient loss on their farms as a part of their work to become excellent environmental stewards."
+                ],
+                "keywords": [
+                    "eco"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We currently have the 3rd highest rate of obesity in the OECD and Kiwi kids play a critical role in how we shape a sustainable New Zealand."
-                    ],
-                    "keywords": [
-                        "sustainable"
-                    ]
-                },
-                "page": "https://www.myfoodbag.co.nz/garden-to-table"
-            }
-        ]
-    },
-    {
-        "domain": "https://hellpizza.nz",
-        "quotes": "Statements related to environmental or sustainability issues:\n- HELL is proactive in creating a sustainable future.\n- Carbon emissions created by HELL are offset by purchasing high-quality carbon credits.\n- HELL has recyclable and compostable packaging options.\n- HELL carefully selects suppliers who share their values for ethics and sustainability.\n- HELL's delivery vehicles are electric and their boxes are made from recycled fibres.\n- HELL is working to reduce waste going to landfills and choosing recycled materials where possible.\n- HELL is committed to leading the way in the food sector for sustainability.\n- HELL plans to measure and record the sustainability of their suppliers and producers.\n- HELL is a market leader in sourcing sustainable food.\n- HELL has worked with Love NZ to ensure their boxes can be recycled throughout NZ.\n- HELL explores cleaner, greener ways to do business.\n\nDirect quotes:\n- \"We want to be proactive in creating a sustainable future.\"\n- \"Any carbon emissions created by HELL are",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We make more than 50,000 pizzas each week for hungry Kiwis, using a significant quantity of food in the process. In addition, the production and transportation of raw ingredients uses a significant amount of natural resources.",
-                        "HELL is a market leader when it comes to sourcing sustainable food and was one of the first to go free-range and prioritise sustainability in our supply chain. That's why more than 86% of our products are locally sourced and produced.",
-                        "Any carbon emissions created by HELL are offset by purchasing high-quality carbon credits, which are used in the regeneration and conservation of native forests, creating a greener, happier world that even the Master approves of.",
-                        "HELL relies on a workforce of dedicated, positive, skilled people \u2013 from our head office to our franchisees and store staff. To have a sustainable future we need to keep our team happy, safe and have a pipeline of new people keen to work with us. HELL prides itself on being a locally owned and operated business, and we are keen to support the communities we operate in and empower our staff to play a role in this.",
-                        "Wherever possible, we carefully select suppliers who share our values for ethics and sustainability (e.g., our pizzas are free-range).\u00a0 We proactively seek out new sustainable food options (e.g. alternative proteins), so we have accessible, delicious products our customers can experiment with \u2013 incorporating greener choices into their diets at their own pace.",
-                        "HELL\u2019s delivery vehicles are electric - silently delivering hot, tasty, and sustainable treats in boxes made locally from recycled fibres (and looking damn good while they do it).",
-                        "We\u2019re working to\u00a0 reduce the amount of waste going to our landfills, and the natural resources that are only used once, by choosing recycled materials where possible. Currently 98.6% of our packaging is recyclable, and 96% is made from recycled fibres. We also choose to buy locally made materials wherever possible to reduce our transport and freight footprint.",
-                        "We also plan to measure and record how \u201cgood\u201d each of our suppliers and producers of food are. This will help us make more informed choices on who to partner with \u2013 ultimately influencing our own sustainable pathway by encouraging suppliers to produce their food in more environmentally efficient ways."
-                    ],
-                    "keywords": [
-                        "green",
-                        "natural",
-                        "recyclable",
-                        "recycled",
-                        "sustainable"
-                    ]
-                },
-                "page": "https://hellpizza.nz/wickedpedia/2021/09/28/sustainability-plan"
+            "page": "https://www.restorenative.co.nz/"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "The biggest challenge I've had in 15 years of planting natives was not the desire to plant but the physical ability and funding to plant as many trees as I wanted to.\u00a0 We are going to address those two issues head on and make it easier for other farmers and environmentally minded people to plant trees and restore areas to their natural purpose.",
+                    "What I want to do to help Restore Native trees to land that is not suited to sustainable farming."
+                ],
+                "keywords": [
+                    "natural",
+                    "sustainable"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "The foil we use for pasta and ribs is recyclable, but not everywhere in New Zealand, so we\u2019re working on that with Love NZ!",
-                        "98.6% of our packaging is recyclable, and 96% is made from recycled fibres.\u00a0",
-                        "We have worked with the Public Place Recycling Scheme (Love NZ) to ensure that our boxes can be recycled throughout NZ.",
-                        "We also have two paper sides bags that are recyclable and made from recycled fibre, and we\u2019ve replaced our plastic bags with compostable eco bags."
-                    ],
-                    "keywords": [
-                        "compostable",
-                        "recyclable",
-                        "recycled"
-                    ]
-                },
-                "page": "https://hellpizza.nz/wickedpedia/2019/05/01/responsible-earth"
+            "page": "https://www.restorenative.co.nz/about/"
+        }
+    ],
+    [
+        "www.restorenative.co.nz",
+        "1",
+        "Agriculture",
+        "112",
+        "Nursery Production (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Our mission is to provide our employees with an honest and helpful working environment that provides job satisfaction. Through this our staff, individually and collectively, will dedicate themselves to providing our customers with workmanship of the highest quality, exceptional service that is adaptable to client\u2019s needs, and professional integrity. Our commitment to this mission will allow Fastgrass Landscaping Ltd to achieve our Vision and become the premier company in our field in Canterbury and the South Island."
+                ],
+                "keywords": [
+                    "eco"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We want to be proactive in creating a sustainable future. Our deliveries are an obvious producer of carbon. Ideally, they would be emission-free with no need to offset; but until we can practically do that, we\u2019re offsetting each delivery, and won\u2019t be passing the costs onto our loyal customers.",
-                        "We\u2019ve always cared about reducing our environmental impact\n- much of our packaging is recycled and recyclable, we offer e-bike delivery in\nsome areas and use local free-range ingredients.\u00a0",
-                        "HELL is committed to leading the way in our food sector and showing other brands what\u2019s possible when it comes to operating a sustainable food business."
-                    ],
-                    "keywords": [
-                        "recyclable",
-                        "recycled",
-                        "sustainable"
-                    ]
-                },
-                "page": "https://hellpizza.nz/wickedpedia/2020/08/18/hell-deliveries-go-carbon-neutral"
+            "page": "https://www.fastgrass.co.nz#0"
+        }
+    ],
+    [
+        "www.fastgrass.co.nz",
+        "1",
+        "Agriculture",
+        "113",
+        "Turf Growing"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Second Grade Now Available\u00a0 LIMITED SUPPLY Sept 2021",
+                    "Tall Fescue Seconds Sold Out\u00a0",
+                    "We hope you are enjoying your green space no matter what the weather!",
+                    "In the Winter months - in warmer regions and coastal areas\u00a0Couch Grass will remain green all year round.\u00a0 In Winter due to colder temperatures, Couch Grass goes into natural dormancy.\u00a0 If hit by a frost it turns straw coloured and loses it colour for approximately 2 months.\u00a0 Your couch will quickly bounce back and green up come Spring before your eyes!"
+                ],
+                "keywords": [
+                    "eco",
+                    "green",
+                    "natural"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We have max respect for Mother Nature, and we continue to explore cleaner, greener ways to go about our business."
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://hellpizza.nz/wickedpedia/tags/sustainability"
+            "page": "https://www.myturf.co.nz#"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "In 2008 we become fully locally owned and operated, Maddison Turf Care grew Legend Couch grass under licence to Strathayr Farms Australia. Changes in 2015 has seen the Turf Farm under redevelopment in grass varieties with Tall Fescue being our major grass variety along with some Couch.\u00a0 Tall Fescue is\u00a0now ready and selling from May 2016. Due to demand we set up a new Turf Farm just down the road and are currently harvesting from this in 2017.\u00a0",
+                    "Let us help assist you to step outside \u2013 breathe the fresh air and enjoy the outdoors no matter how big or small your green space is.\u00a0"
+                ],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "For Ben Cumming, CEO of HELL Pizza, it was a natural\npartnership."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://hellpizza.nz/wickedpedia/2021/04/07/150-youths-graduate-from-active-in-hell-paid-training"
+            "page": "https://www.myturf.co.nz/about-us/"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "green",
+                    "natural"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "\u201cHELL shares the same\nvalues as us, wanting to create great pizza with quality ingredients. We take\nanimal welfare incredibly seriously, that is why we both insist on knowing\nwhere our meat comes from and that it is environmentally friendly and\nsustainable\u201d."
-                    ],
-                    "keywords": [
-                        "sustainable"
-                    ]
-                },
-                "page": "https://hellpizza.nz/wickedpedia/2019/04/16/hell-free-range"
+            "page": "https://www.myturf.co.nz/"
+        }
+    ],
+    [
+        "www.myturf.co.nz",
+        "1",
+        "Agriculture",
+        "113",
+        "Turf Growing"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Always a pleasure dealing with everyone at Blackbridge Nurseries and the stock is always top quality. Their large grade stock has been great for our commercial projects as well as in my own garden \u2013 highly recommend!",
+                    "Evergreen Exotic Trees"
+                ],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Freedom to express natural behaviour: by providing sufficient space, proper facilities and the company of the animal\u2019s own kind."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://hellpizza.nz/wickedpedia/2015/10/15/hell-pizzas-pleasure"
+            "page": "https://www.blackbridgenurseries.co.nz?add-to-cart=7723"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "\n\t\tAlnus Jorullensis \u2013  Evergreen or Mexican Alder\t"
+                ],
+                "keywords": [
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://hellpizza.nz/assets/pdfs/menu/menu-web-01-23.pdf"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.airnewzealand.co.nz",
-        "quotes": "The text mentions Portland as being recognized as America's greenest city, indicating a focus on sustainability and environmental issues. \n\nDirect quotes: \n- \"Recognised as America's greenest city, Portland is passionate about treading more lightly on the Earth.\"",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "New Zealand has naturally stunning landscapes, friendly locals and heaps to do - all within short travelling distances."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.airnewzealand.co.nz/destination-new-zealand"
+            "page": "https://www.blackbridgenurseries.co.nz/trees/"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Recognised as America's greenest city, Portland is passionate about treading more lightly on the Earth."
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://www.airnewzealand.co.nz/destination-usa"
+            "page": "https://www.blackbridgenurseries.co.nz#content"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Spring is a gorgeous time to visit Vancouver. Flowers are blooming, the whales are on the move and the city's people are embracing the joys of warmer weather. You can explore Stanley Park, the green jewel of inner-city Vancouver. Or catch a floatplane to Vancouver Island for walks around historic Victoria, followed by a Cowichan Valley wine tour. It's always a great time to head up to Grouse Mountain for sky-high views and bear photos. You can also throw in a road or train trip to the Rockies for good measure. Another popular attraction is the FlyOver Canada virtual flightseeing tour that delights passengers of all ages."
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://www.airnewzealand.co.nz/destination-vancouver"
+            "page": "https://www.blackbridgenurseries.co.nz#"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Savour exciting Hong Kong's varied and contrasting delights, from natural splendour to vivacious nightlife."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.airnewzealand.co.nz/destination-asia"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.bunnings.co.nz",
-        "quotes": "Summary: The text does not contain any direct statements related to environmental or sustainability issues.\n\nQuotes: N/A",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We've got the D.I.Y. Advice and range to help bring out your inner green thumb"
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://www.bunnings.co.nz/products/garden"
-            }
-        ]
-    },
-    {
-        "domain": "https://hellpizza.nz",
-        "quotes": "Summary: The text mentions the company's respect for the environment and their efforts to find more sustainable ways of conducting their business.\n\nDirect quotes: \"We have max respect for Mother Nature\" and \"we continue to explore cleaner, greener ways to go about our business.\"",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We have max respect for Mother Nature, and we continue to explore cleaner, greener ways to go about our business."
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://hellpizza.nz/wickedpedia/tags/sustainability"
+            "page": "https://www.blackbridgenurseries.co.nz?product_view=list"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://hellpizza.nz/assets/pdfs/menu/menu-web-01-23.pdf"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.watties.co.nz",
-        "quotes": "The statement \"Yes, all of our cans are recyclable\" indicates that the company is addressing environmental and sustainability issues by ensuring that their product packaging can be recycled. \n\nDirect quotes: \n- \"Yes, all of our cans are recyclable.\"",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        " To stop our content appearing organically in your newsfeed, you must unlike our Facebook page.",
-                        "Facebook delivers content from a brand page to its users\u2019 newsfeeds in two ways: organically to those who have chosen to \u2018like\u2019 the page, and through advertising."
-                    ],
-                    "keywords": [
-                        "organic"
-                    ]
-                },
-                "page": "https://www.watties.co.nz/terms-of-use"
+            "page": "https://www.blackbridgenurseries.co.nz#fusion-quick-view"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Yes, all of our cans are recyclable.",
-                        "Are Wattie\u2019s cans recyclable?"
-                    ],
-                    "keywords": [
-                        "recyclable"
-                    ]
-                },
-                "page": "https://www.watties.co.nz/faqs"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.myfoodbag.co.nz",
-        "quotes": "Statements related to environmental or sustainability issues:\n- Meal kits have lower greenhouse gas emissions than supermarket-bought meals.\n- The company is working to monitor and reduce their greenhouse gas emissions and operational waste.\n- Kiwi kids play a critical role in shaping a sustainable New Zealand.\n- The company is continuously improving their packaging to reduce landfill and introduce recyclable alternatives.\n- The company uses sustainable packaging and ingredients.\n\nDirect quotes to support the summary:\n- \"Research shows meal kits have lower average greenhouse gas emissions than supermarket-bought meals*.\"\n- \"Through innovative ideas and strong partnerships we are working to comprehensively monitor and reduce our greenhouse gas emissions and operational waste.\"\n- \"We currently have the 3rd highest rate of obesity in the OECD and Kiwi kids play a critical role in how we shape a sustainable New Zealand.\"\n- \"We're continuously reviewing and improving our packaging to ensure we reduce landfill and introduce recyclable alternatives, without compromising food quality and safety.\"\n- \"Great recipes, good choice and",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Research shows meal kits have lower average greenhouse gas emissions than supermarket-bought meals*.",
-                        "Our boxes are made of 47% recycled cardboard & FSC certified virgin cardboard, MADE trays composed of 80% recycled plastic, and our ice packs are 100% water.",
-                        "We're continuously reviewing and improving our packaging to ensure we reduce landfill and introduce recyclable alternatives, without compromising food quality and safety.",
-                        "Through innovative ideas and strong partnerships we are working to comprehensively monitor and reduce our greenhouse gas emissions and operational waste."
-                    ],
-                    "keywords": [
-                        "green",
-                        "recyclable",
-                        "recycled"
-                    ]
-                },
-                "page": "https://www.myfoodbag.co.nz/sustainability"
+            "page": "https://www.blackbridgenurseries.co.nz?add-to-cart=7732"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Great recipes, good choice and sustainable packaging and ingredients.  "
-                    ],
-                    "keywords": [
-                        "sustainable"
-                    ]
-                },
-                "page": "https://www.myfoodbag.co.nz#"
+            "page": "https://www.blackbridgenurseries.co.nz?add-to-cart=7800"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We currently have the 3rd highest rate of obesity in the OECD and Kiwi kids play a critical role in how we shape a sustainable New Zealand."
-                    ],
-                    "keywords": [
-                        "sustainable"
-                    ]
-                },
-                "page": "https://www.myfoodbag.co.nz/garden-to-table"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.burgerfuel.com",
-        "quotes": "The text emphasizes the use of natural and ethically sourced ingredients in their food. There is no direct mention of environmental or sustainability issues.\n\nDirect quotes:\n- \"Our sweet, tomato relish is crafted using whole fresh fruit and vegetables, selected herbs and natural spices. Naturally sweet and aged to perfection.\"\n- \"Our chicken is the real deal - we never use fillers and it must be ethically raised. That's why we serve only 100% free range natural chicken breast - and say no to processing, hormones, additives, and GMO's.\"\n- \"Batch brewed tomato relish, naturally aged so the acid drops and the sweetness hops.\"\n- \"Soy thickshakes made with all-natural BurgerFuel Whip\"\n- \"Fresh natural aioli. Just another taste. Just another hit. Addiction made daily.\"\n- \"All-natural BurgerFuel Thickshakes made fresh to order.\"\n- \"You are an organic machine, a sensational human and your engine deserves the most pure, natural",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Our sweet, tomato relish is crafted using whole fresh fruit and vegetables, selected herbs and natural spices. Naturally sweet and aged to perfection.",
-                        "Our chicken is the real deal - we never use fillers and it must be ethically raised. That's why we serve only 100% free range natural chicken breast - and say no to processing, hormones, additives, and GMO's.",
-                        "Batch brewed tomato relish, naturally aged so the acid drops and the sweetness hops.",
-                        "Fresh natural aioli. Just another taste. Just another hit. Addiction made daily. \u200b",
-                        "You deserve nothing less than the best. That's why we leave no stone unturned in our relentless quest for the freshest, most pure, natural ingredients we can get our hands on. It's also why we make sure that your meal is made to order, when you order, and prepared with the utmost care, preparation, and burger making respect."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com/nz/our-food/pure-ingredients"
+            "page": "https://www.blackbridgenurseries.co.nz?add-to-cart=7802"
+        }
+    ],
+    [
+        "www.blackbridgenurseries.co.nz",
+        "1",
+        "Agriculture",
+        "112",
+        "Nursery Production (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Our specialist Lawn care operators will keep your newly laid lawn looking great or transform your weedy grass into a luscious green lawn, adding to the value of your home and your lifestyle."
+                ],
+                "keywords": [
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Soy thickshakes made with all-natural BurgerFuel Whip",
-                        "Milk thickshakes made with all-natural BurgerFuel Whip",
-                        "Cheeseburger, spud fries with fresh natural free range BurgerFuel Aioli or tomato sauce and a small juice"
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com/nz/order"
+            "page": "https://www.pimpmylawn.co.nz#login"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "In the midst of our conversion into the digital era, we sometimes find ourselves on the edge of the fence, gazing over the paddocks trying to determine which grass is greener. The digital era ..."
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com#mm-2"
+            "page": "https://www.pimpmylawn.co.nz/"
+        }
+    ],
+    [
+        "www.pimpmylawn.co.nz",
+        "1",
+        "Agriculture",
+        "113",
+        "Turf Growing"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Locally owned and passionate about plants, we pride ourselves on our expert service and range of plants second to none. With over forty staff and an ever-expanding nursery just south of Christchurch, we can supply large quantities of plants New Zealand wide.\u00a0",
+                    "Evergreen",
+                    "Evergreen",
+                    "Evergreen"
+                ],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "All-natural BurgerFuel Thickshakes made fresh to order."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com/nz/our-food/burgers"
+            "page": "https://www.southernwoods.co.nz/buy-plants-online/"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "We\u2019re committed to creating natural environments for the long term benefit of all."
+                ],
+                "keywords": [
+                    "natural"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "You are an organic machine, a sensational human and your engine deserves the most pure, natural ingredients, ripped straight from mother natures sweet bosom before anyone's had the chance to defile them. Our super natural gourmet burgers are made to be eaten with pure, unadulterated, unbridled passion (there's no time for knives and forks here... but we're always down for a spoon, if you're offering) and every mouthful should be a celebration of the most beautiful things in life, like pure fuel and your bad assery."
-                    ],
-                    "keywords": [
-                        "natural",
-                        "organic"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com/nz/our-food/fuel-for-the-human-engine"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.hallensteins.com",
-        "quotes": "There are no statements related to environmental or sustainability issues in the provided text.",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "\n\t\t\t\t\t\t\t\tLinen is a natural fibre derived from flax. Lightweight and breathable, it is generally worn through the warmer months through shirting and tailoring. Made in a way we\u2019re proud of, our Linen Range is crafted from traceable flax produced exclusively in France, Belgium or the Netherlands. Traceability ensures the environment, as well as the producers, are respected at every step of the process. Our new range brings updated styling and soft yet durable wear. Great for any season, linen is a natural fibre that drapes nicely through pants and shirting which are perfect for both casual and formal wear. \t\t\t\t\t\t\t",
-                        "\n\t\t\t\t\t\t\t\tCotton is a natural fibre that is used across our range of clothing in a variety of ways. Cotton is spun into yarn that can be woven into a soft and durable fabric. At Hallenstein Brothers we use Asiatic cotton and Organic Cotton which is certified by an independent third party. Cotton can be woven in a variety of ways to create every day fabrics for you to enjoy, including corduroy, denim, velour and fleece. Cotton is normally easy to care for through machine washing and hang drying but refer to care instructions to ensure the longevity of your garments.\t\t\t\t\t\t\t"
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.hallensteins.com/faqs"
+            "page": "https://www.southernwoods.co.nz#"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "natural"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "recycled puffer jackets"
-                    ],
-                    "keywords": [
-                        "recycled"
-                    ]
-                },
-                "page": "https://www.hallensteins.com/clothing/jackets-coats/puffer-jackets"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.bunnings.co.nz",
-        "quotes": "Summary: The text does not contain any direct statements related to environmental or sustainability issues.\n\nQuotes: N/A",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We've got the D.I.Y. Advice and range to help bring out your inner green thumb"
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://www.bunnings.co.nz/products/garden"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.watties.co.nz",
-        "quotes": "Summary: The text does contain a statement related to environmental/sustainability issues, specifically about the recyclability of Wattie's cans.\n\nDirect quotes: \n- \"Are Wattie's cans recyclable?\" \n- \"Yes, all of our cans are recyclable.\"",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        " To stop our content appearing organically in your newsfeed, you must unlike our Facebook page.",
-                        "Facebook delivers content from a brand page to its users\u2019 newsfeeds in two ways: organically to those who have chosen to \u2018like\u2019 the page, and through advertising."
-                    ],
-                    "keywords": [
-                        "organic"
-                    ]
-                },
-                "page": "https://www.watties.co.nz/terms-of-use"
+            "page": "https://www.southernwoods.co.nz#jupiterx-main"
+        }
+    ],
+    [
+        "www.southernwoods.co.nz",
+        "1",
+        "Agriculture",
+        "112",
+        "Nursery Production (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Transform your landscape in no time with lush, green lawn grown in rich Taranaki topsoil."
+                ],
+                "keywords": [
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Yes, all of our cans are recyclable.",
-                        "Are Wattie\u2019s cans recyclable?"
-                    ],
-                    "keywords": [
-                        "recyclable"
-                    ]
-                },
-                "page": "https://www.watties.co.nz/faqs"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.picspeanutbutter.com",
-        "quotes": "The text does not contain any direct statements related to environmental or sustainability issues.\n\nN/A",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "After a voluntary audit of our supply chain for ethical and sustainable business practices, we\u2019ve decided to stop making our Cashew Butter and we will be removing it from our Pic\u2019s family.",
-                        "The growers of these peanuts only produce tiny amounts of organic peanuts which wouldn\u2019t be enough to keep up with our demand. You see, organic peanuts are super tricky to grow. Peanuts need to be sprayed up to 10-12 times a year for pest and fungus (such as aflatoxins) control. However, that doesn\u2019t mean they just spray any old thing on the growing peanuts. Herbicides are limited in volume, frequency, type, and of course, meet NZ food-safe practice codes.",
-                        "Being all-natural, a stir with a sturdy knife is vital for your Pic\u2019s. Make sure you deep dive and get all the way to the bottom, otherwise, when the end is near, you will have a dry bottom, which no-one wants.",
-                        "Our smooth is remarkably smooth! We don't add any emulsifiers to keep it solid or extra oil to make it runny, it's just the natural oils from the peanuts. It\u2019s velvety and oh so perfect for drizzling, baking, or getting that deliciously delicate layer of nutty butter on your toast."
-                    ],
-                    "keywords": [
-                        "natural",
-                        "organic",
-                        "sustainable"
-                    ]
-                },
-                "page": "https://www.picspeanutbutter.com/go-to-stories/frequently-asked-questions/"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.airnewzealand.co.nz",
-        "quotes": "The text mentions environmental and sustainability issues in relation to Portland, which is recognized as America's greenest city. \n\nDirect quotes: \"Recognised as America's greenest city, Portland is passionate about treading more lightly on the Earth.\"",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "New Zealand has naturally stunning landscapes, friendly locals and heaps to do - all within short travelling distances."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.airnewzealand.co.nz/destination-new-zealand"
+            "page": "https://www.taranakiturf.co.nz#"
+        }
+    ],
+    [
+        "www.taranakiturf.co.nz",
+        "1",
+        "Agriculture",
+        "113",
+        "Turf Growing"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Actively using the AgRecovery recycling program for chemical containers",
+                    "We also try to foster a fun atmosphere at work and on premises we have a basketball hoop, putting green and cricket pitch which is used regularly after work by our employees to wind down."
+                ],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Recognised as America's greenest city, Portland is passionate about treading more lightly on the Earth."
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://www.airnewzealand.co.nz/destination-usa"
+            "page": "https://www.lawnandturf.co.nz/our-values#staff"
+        }
+    ],
+    [
+        "www.lawnandturf.co.nz",
+        "1",
+        "Agriculture",
+        "113",
+        "Turf Growing"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Specialising in sports turf renovation, development and maintenance, we can make and keep your turf green with high-density turf upgrades. The types of turf we can service include:",
+                    "Parklands Turf has a formidable team with a vast array of knowledge, which will work to the benefit of your project. We also have an injury-free record and prioritise the observation and practice of all modern safety requirements.",
+                    "Making and keeping your turf green"
+                ],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Spring is a gorgeous time to visit Vancouver. Flowers are blooming, the whales are on the move and the city's people are embracing the joys of warmer weather. You can explore Stanley Park, the green jewel of inner-city Vancouver. Or catch a floatplane to Vancouver Island for walks around historic Victoria, followed by a Cowichan Valley wine tour. It's always a great time to head up to Grouse Mountain for sky-high views and bear photos. You can also throw in a road or train trip to the Rockies for good measure. Another popular attraction is the FlyOver Canada virtual flightseeing tour that delights passengers of all ages."
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://www.airnewzealand.co.nz/destination-vancouver"
+            "page": "https://www.parklandsturf.co.nz/aboutservices"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Savour exciting Hong Kong's varied and contrasting delights, from natural splendour to vivacious nightlife."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.airnewzealand.co.nz/destination-asia"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.hallensteins.com",
-        "quotes": "The text mentions the use of traceable flax produced exclusively in France, Belgium or the Netherlands for their Linen Range, which ensures that the environment is respected at every step of the process. The text also mentions the use of Organic Cotton, which is certified by an independent third party. These statements suggest that the company is conscious of environmental and sustainability issues.\n\nDirect quotes:\n- \"our Linen Range is crafted from traceable flax produced exclusively in France, Belgium or the Netherlands. Traceability ensures the environment, as well as the producers, are respected at every step of the process.\"\n- \"At Hallenstein Brothers we use Asiatic cotton and Organic Cotton which is certified by an independent third party.\"",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "\n\t\t\t\t\t\t\t\tLinen is a natural fibre derived from flax. Lightweight and breathable, it is generally worn through the warmer months through shirting and tailoring. Made in a way we\u2019re proud of, our Linen Range is crafted from traceable flax produced exclusively in France, Belgium or the Netherlands. Traceability ensures the environment, as well as the producers, are respected at every step of the process. Our new range brings updated styling and soft yet durable wear. Great for any season, linen is a natural fibre that drapes nicely through pants and shirting which are perfect for both casual and formal wear. \t\t\t\t\t\t\t",
-                        "\n\t\t\t\t\t\t\t\tCotton is a natural fibre that is used across our range of clothing in a variety of ways. Cotton is spun into yarn that can be woven into a soft and durable fabric. At Hallenstein Brothers we use Asiatic cotton and Organic Cotton which is certified by an independent third party. Cotton can be woven in a variety of ways to create every day fabrics for you to enjoy, including corduroy, denim, velour and fleece. Cotton is normally easy to care for through machine washing and hang drying but refer to care instructions to ensure the longevity of your garments.\t\t\t\t\t\t\t"
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.hallensteins.com/faqs"
-            }
-        ]
-    },
-    {
-        "domain": "https://hellpizza.nz",
-        "quotes": "The text contains several statements related to environmental and sustainability issues. HELL Pizza is committed to reducing waste going to landfills, using recycled materials, buying locally made materials, and selecting suppliers who share their values for ethics and sustainability. They also offer sustainable food options and use free-range ingredients. HELL Pizza is committed to leading the way in the food sector and showing other brands what's possible when it comes to operating a sustainable food business. They offset carbon emissions and use electric delivery vehicles made from recycled fibers. They plan to measure and record the sustainability of their suppliers and producers of food to make more informed choices. Finally, HELL Pizza is committed to keeping their team happy, safe, and supporting the communities they operate in.\n\nDirect quotes:\n- \"We\u2019re working to\u00a0 reduce the amount of waste going to our landfills, and the natural resources that are only used once, by choosing recycled materials where possible.\"\n- \"Currently 98.6% of our packaging is recyclable, and",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We\u2019re working to\u00a0 reduce the amount of waste going to our landfills, and the natural resources that are only used once, by choosing recycled materials where possible. Currently 98.6% of our packaging is recyclable, and 96% is made from recycled fibres. We also choose to buy locally made materials wherever possible to reduce our transport and freight footprint.",
-                        "Wherever possible, we carefully select suppliers who share our values for ethics and sustainability (e.g., our pizzas are free-range).\u00a0 We proactively seek out new sustainable food options (e.g. alternative proteins), so we have accessible, delicious products our customers can experiment with \u2013 incorporating greener choices into their diets at their own pace.",
-                        "HELL is a market leader when it comes to sourcing sustainable food and was one of the first to go free-range and prioritise sustainability in our supply chain. That's why more than 86% of our products are locally sourced and produced.",
-                        "We make more than 50,000 pizzas each week for hungry Kiwis, using a significant quantity of food in the process. In addition, the production and transportation of raw ingredients uses a significant amount of natural resources.",
-                        "HELL\u2019s delivery vehicles are electric - silently delivering hot, tasty, and sustainable treats in boxes made locally from recycled fibres (and looking damn good while they do it).",
-                        "We also plan to measure and record how \u201cgood\u201d each of our suppliers and producers of food are. This will help us make more informed choices on who to partner with \u2013 ultimately influencing our own sustainable pathway by encouraging suppliers to produce their food in more environmentally efficient ways.",
-                        "Any carbon emissions created by HELL are offset by purchasing high-quality carbon credits, which are used in the regeneration and conservation of native forests, creating a greener, happier world that even the Master approves of.",
-                        "HELL relies on a workforce of dedicated, positive, skilled people \u2013 from our head office to our franchisees and store staff. To have a sustainable future we need to keep our team happy, safe and have a pipeline of new people keen to work with us. HELL prides itself on being a locally owned and operated business, and we are keen to support the communities we operate in and empower our staff to play a role in this."
-                    ],
-                    "keywords": [
-                        "green",
-                        "natural",
-                        "recyclable",
-                        "recycled",
-                        "sustainable"
-                    ]
-                },
-                "page": "https://hellpizza.nz/wickedpedia/2021/09/28/sustainability-plan"
+            "page": "https://www.parklandsturf.co.nz/"
+        }
+    ],
+    [
+        "www.parklandsturf.co.nz",
+        "1",
+        "Agriculture",
+        "113",
+        "Turf Growing"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "I am so happy with the benefits from Gozie Saffron. It helps me with better sleeping and soothing heartburn relief. Highly recommended for everyone!",
+                    "I am so happy with the benefits from Gozie Saffron. It helps me with better sleeping and soothing heartburn relief. Highly recommended for everyone!",
+                    "I am so happy with the benefits from Gozie Saffron. It helps me with better sleeping and soothing heartburn relief. Highly recommended for everyone!",
+                    "Really great product highly recommend !",
+                    "organic farm."
+                ],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We want to be proactive in creating a sustainable future. Our deliveries are an obvious producer of carbon. Ideally, they would be emission-free with no need to offset; but until we can practically do that, we\u2019re offsetting each delivery, and won\u2019t be passing the costs onto our loyal customers.",
-                        "We\u2019ve always cared about reducing our environmental impact\n- much of our packaging is recycled and recyclable, we offer e-bike delivery in\nsome areas and use local free-range ingredients.\u00a0",
-                        "HELL is committed to leading the way in our food sector and showing other brands what\u2019s possible when it comes to operating a sustainable food business."
-                    ],
-                    "keywords": [
-                        "recyclable",
-                        "recycled",
-                        "sustainable"
-                    ]
-                },
-                "page": "https://hellpizza.nz/wickedpedia/2020/08/18/hell-deliveries-go-carbon-neutral"
+            "page": "https://goziesaffron.com#updates-to-privacy-policy"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "It is your responsibility to keep your login details, password and security questions in respect of our business with you safe and secure. You should notify us as soon as possible if you become aware of any unauthorised use of your login details, password or security questions, and immediately change that security information promptly.",
+                    "We may change this Privacy Policy from time to time. If we make any changes, we will notify you by revising the \u201cLast Updated\u201d date at the top of this Privacy Policy and, in some cases, we may provide you with additional notice (such as adding a statement to our homepage or sending you an email notification). If there are material changes to this Privacy Policy, we will notify you more directly by email or means of a notice on the home page prior to the change becoming effective. We encourage you to review our Privacy Policy whenever you access GozieSaffron\u2019s website to stay informed about our information practices and the ways you can help protect your privacy. Your use of any of the GozieSaffron services after the posting of such changes shall constitute your consent to such changes."
+                ],
+                "keywords": [
+                    "eco"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We have max respect for Mother Nature, and we continue to explore cleaner, greener ways to go about our business."
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://hellpizza.nz/wickedpedia/tags/sustainability"
+            "page": "https://goziesaffron.com/privacy-policy"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://hellpizza.nz/assets/pdfs/menu/menu-web-01-23.pdf"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.myfoodbag.co.nz",
-        "quotes": "The text contains several statements related to environmental and sustainability issues. The company is committed to reducing landfill and introducing recyclable alternatives for their packaging. They also mention that research shows their meal kits have lower greenhouse gas emissions than supermarket-bought meals. The company is working to monitor and reduce their greenhouse gas emissions and operational waste through innovative ideas and partnerships. They also mention the importance of shaping a sustainable New Zealand, particularly for children. The company uses sustainable packaging and ingredients, including recycled cardboard and plastic, and water-based ice packs.\n\nDirect quotes:\n- \"We're continuously reviewing and improving our packaging to ensure we reduce landfill and introduce recyclable alternatives, without compromising food quality and safety.\"\n- \"Research shows meal kits have lower average greenhouse gas emissions than supermarket-bought meals*.\"\n- \"Through innovative ideas and strong partnerships we are working to comprehensively monitor and reduce our greenhouse gas emissions and operational waste.\"\n- \"We currently have the 3rd highest rate of obesity in the OECD and Kiwi kids",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Through innovative ideas and strong partnerships we are working to comprehensively monitor and reduce our greenhouse gas emissions and operational waste.",
-                        "We're continuously reviewing and improving our packaging to ensure we reduce landfill and introduce recyclable alternatives, without compromising food quality and safety.",
-                        "Research shows meal kits have lower average greenhouse gas emissions than supermarket-bought meals*.",
-                        "Our boxes are made of 47% recycled cardboard & FSC certified virgin cardboard, MADE trays composed of 80% recycled plastic, and our ice packs are 100% water."
-                    ],
-                    "keywords": [
-                        "green",
-                        "recyclable",
-                        "recycled"
-                    ]
-                },
-                "page": "https://www.myfoodbag.co.nz/sustainability"
+            "page": "https://goziesaffron.com/news/"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Great recipes, good choice and sustainable packaging and ingredients.  "
-                    ],
-                    "keywords": [
-                        "sustainable"
-                    ]
-                },
-                "page": "https://www.myfoodbag.co.nz#"
+            "page": "https://goziesaffron.com#main"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "We currently have the 3rd highest rate of obesity in the OECD and Kiwi kids play a critical role in how we shape a sustainable New Zealand."
-                    ],
-                    "keywords": [
-                        "sustainable"
-                    ]
-                },
-                "page": "https://www.myfoodbag.co.nz/garden-to-table"
-            }
-        ]
-    },
-    {
-        "domain": "https://www.burgerfuel.com",
-        "quotes": "The text emphasizes the use of natural and pure ingredients in BurgerFuel's products, including free-range chicken and all-natural thickshakes. There is also a mention of the company's commitment to preparing meals with care and respect. \n\nDirect quotes: \n- \"your engine deserves the most pure, natural ingredients, ripped straight from mother natures sweet bosom before anyone's had the chance to defile them\"\n- \"Our sweet, tomato relish is crafted using whole fresh fruit and vegetables, selected herbs and natural spices. Naturally sweet and aged to perfection.\"\n- \"Our chicken is the real deal - we never use fillers and it must be ethically raised. That's why we serve only 100% free range natural chicken breast - and say no to processing, hormones, additives, and GMO's.\"\n- \"All-natural BurgerFuel Thickshakes made fresh to order.\"\n- \"we leave no stone unturned in our relentless quest for the freshest, most pure, natural",
-        "pagesWithKeywords": [
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Batch brewed tomato relish, naturally aged so the acid drops and the sweetness hops.",
-                        "Our sweet, tomato relish is crafted using whole fresh fruit and vegetables, selected herbs and natural spices. Naturally sweet and aged to perfection.",
-                        "Fresh natural aioli. Just another taste. Just another hit. Addiction made daily. \u200b",
-                        "Our chicken is the real deal - we never use fillers and it must be ethically raised. That's why we serve only 100% free range natural chicken breast - and say no to processing, hormones, additives, and GMO's.",
-                        "You deserve nothing less than the best. That's why we leave no stone unturned in our relentless quest for the freshest, most pure, natural ingredients we can get our hands on. It's also why we make sure that your meal is made to order, when you order, and prepared with the utmost care, preparation, and burger making respect."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com/nz/our-food/pure-ingredients"
+            "page": "https://goziesaffron.com#main-container"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "Cheeseburger, spud fries with fresh natural free range BurgerFuel Aioli or tomato sauce and a small juice",
-                        "Milk thickshakes made with all-natural BurgerFuel Whip",
-                        "Soy thickshakes made with all-natural BurgerFuel Whip"
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com/nz/order"
+            "page": "https://goziesaffron.com#quick-view-1247"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "In the midst of our conversion into the digital era, we sometimes find ourselves on the edge of the fence, gazing over the paddocks trying to determine which grass is greener. The digital era ..."
-                    ],
-                    "keywords": [
-                        "green"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com#mm-2"
+            "page": "https://goziesaffron.com#quick-view-651"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "All-natural BurgerFuel Thickshakes made fresh to order."
-                    ],
-                    "keywords": [
-                        "natural"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com/nz/our-food/burgers"
+            "page": "https://goziesaffron.com#woo-filters-panel"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
             },
-            {
-                "textsWithKeyWords": {
-                    "text": [
-                        "You are an organic machine, a sensational human and your engine deserves the most pure, natural ingredients, ripped straight from mother natures sweet bosom before anyone's had the chance to defile them. Our super natural gourmet burgers are made to be eaten with pure, unadulterated, unbridled passion (there's no time for knives and forks here... but we're always down for a spoon, if you're offering) and every mouthful should be a celebration of the most beautiful things in life, like pure fuel and your bad assery."
-                    ],
-                    "keywords": [
-                        "natural",
-                        "organic"
-                    ]
-                },
-                "page": "https://www.burgerfuel.com/nz/our-food/fuel-for-the-human-engine"
-            }
-        ]
-    }
+            "page": "https://goziesaffron.com#quick-view-1181"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
+            },
+            "page": "https://goziesaffron.com#quick-view-955"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
+            },
+            "page": "https://goziesaffron.com#quick-view-952"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
+            },
+            "page": "https://goziesaffron.com#privacy-policy"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
+            },
+            "page": "https://goziesaffron.com#cookies"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
+            },
+            "page": "https://goziesaffron.com#in-what-limited-circumstances-might-we-disclose-your-personal-information"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
+            },
+            "page": "https://goziesaffron.com#what-about-links-to-other-websites"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "organic"
+                ]
+            },
+            "page": "https://goziesaffron.com#how-you-can-access-or-correct-your-personal-information"
+        }
+    ],
+    [
+        "goziesaffron.com",
+        "1",
+        "Agriculture",
+        "112",
+        "Nursery Production (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "We are enjoying standing on the deck and surveying the swath of bright green.\u00a0",
+                    "Readylawn will give you a lush springy, green lawn within hours whatever option you choose",
+                    "natural grass\u00a0",
+                    "feels like natural grass"
+                ],
+                "keywords": [
+                    "green",
+                    "natural"
+                ]
+            },
+            "page": "https://www.readylawn.co.nz#"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "The Readylawn name has become generic for instant roll out turf in New Zealand.\u00a0 You can only buy the genuine product off a licensed Readylawn business.",
+                    "natural grass lawn"
+                ],
+                "keywords": [
+                    "eco",
+                    "natural"
+                ]
+            },
+            "page": "https://www.readylawn.co.nz/about/#meet-the-team"
+        }
+    ],
+    [
+        "www.readylawn.co.nz",
+        "1",
+        "Agriculture",
+        "113",
+        "Turf Growing"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Also known as the Pink Flamingo oyster mushroom, this tropical variety turns heads with its intensely pink colour and beautiful layered clusters. Upon cooking, the pink colour fades and the mushroom becomes a yellow, orange and brown colour. It has a meaty and umami flavour when cooked and when fried crispy, it resembles bacon or ham.",
+                    "The Velvet oyster mushroom is New Zealand\u2019s very own endemic oyster mushroom. This incredible mushroom grows very large fruiting bodies with beautiful velvety caps. The base of the mushroom can be quite tough so we recommend once the mushroom is harvested, the stems be cut away while the tender caps can be enjoyed cooked into pastas, casseroles and soups."
+                ],
+                "keywords": [
+                    "eco"
+                ]
+            },
+            "page": "https://houseoffungi.com/pages/fungi"
+        }
+    ],
+    [
+        "houseoffungi.com",
+        "1",
+        "Agriculture",
+        "121",
+        "Mushroom Growing"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Short term business loan are the perfect way to refinance multiple debts, meet short-term cash flow problems, and more. When applied correctly, unsecured business loans in Queensland can help you prove to the lender that you're financially responsible and can afford the loan. Using a broker can also help you find the best options. These brokers can recommend the most suitable loan provider for your business. So, when searching for an unsecured business loan in Brisbane, it's important to choose a good broker.",
+                    "A business finance broker connects you with multiple lenders and may be able to save you time and money. Business finance brokers charge a fee to the borrower, but in exchange, they may receive a commission from the lender. It has an excellent track record of helping local businesses secure commercial finance. These brokers can help you determine the best options for your business and can provide you with the financing you need.",
+                    "The process of obtaining an unsecured business loan in New Zealand is simple and quick. If you have a monthly turnover of $6,000, you may be eligible for a loan with a lower interest rate. Secondly, unsecured business loans in NZ can be used for a variety of purposes. These loans do not require any collateral, and the repayment terms can be flexible. A small percentage of the funds can be used for expansion or purchase of equipment.",
+                    "If you're searching for a fast business loan in Brisbane, you'll want to use a company that specializes in small business lending. You can trust the lender they recommend, and they understand the lending landscape in your area. This will ensure your fast business loan in Brisbane is approved and that you don't get stuck paying high interest rates. It's also important to find a company that offers competitive rates and flexible repayment terms.",
+                    "The services industry is Brisbane's largest industry. This sector contributes around 20% of the state's economy. In fact, it's the sector that represents Brisbane's greatest potential in terms of exports. A trusted finance broker. Their team of professionals will listen to your needs and help you get the financing you need to grow your business. If you'd like to learn more about getting a fast business loan in Brisbane, contact them today. You'll be glad you did.",
+                    "The best way to get an unsecured business loan in Brisbane is to work with a broker. A loan broker can advise you on the best loan provider, based on your specific situation. These brokers understand the lending landscape and can recommend the best lender for your needs. Regardless of your credit score, unsecured business loans in Queensland can be a great option. If you don't have a high credit score, a broker can help you find the right loan for your business.",
+                    "Among the long-term sources of business finance, equity shares are the main source. An owner raises capital by selling a portion of the company's ownership. The person who purchases these shares, then, becomes a part owner and has the right to participate in the decision-making process. Another source of long-term capital is obtaining loans from banks or other financial institutions. Banks and other lenders are generally happy to lend to those who can repay the loans."
+                ],
+                "keywords": [
+                    "eco"
+                ]
+            },
+            "page": "https://Amuritruffiere.nz"
+        }
+    ],
+    [
+        "Amuritruffiere.nz",
+        "1",
+        "Agriculture",
+        "123",
+        "Vegetable Growing (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "\"We asked Turf Services to come to our property to quote for a new lawn. We were impressed with Jeremy's quote, it was prompt and we accepted it. Even better, the work was done and completed on time and to an excellent standard. We highly recommend Turf Services, we found the team reliable, hard-working and conscientious.\"",
+                    "\"We asked Turf Services to come to our property to quote for a new lawn. We were impressed with Jeremy's quote, it was prompt and we accepted it. Even better, the work was done and completed on time and to an excellent standard. We highly recommend Turf Services, we found the team reliable, hard-working and conscientious.\"",
+                    "\"We asked Turf Services to come to our property to quote for a new lawn. We were impressed with Jeremy's quote, it was prompt and we accepted it. Even better, the work was done and completed on time and to an excellent standard. We highly recommend Turf Services, we found the team reliable, hard-working and conscientious.\"",
+                    "\"We asked Turf Services to come to our property to quote for a new lawn. We were impressed with Jeremy's quote, it was prompt and we accepted it. Even better, the work was done and completed on time and to an excellent standard. We highly recommend Turf Services, we found the team reliable, hard-working and conscientious.\"",
+                    "Professional sports turf surfaces includes, golf course greens/tees and fairways, Sports fields - Rugby & Soccer Fields,"
+                ],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
+            },
+            "page": "https://www.turfservices.co.nz#sportsfield"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
+            },
+            "page": "https://www.turfservices.co.nz#fl-main-content"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
+            },
+            "page": "https://www.turfservices.co.nz#navigation-ourservices"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
+            },
+            "page": "https://www.turfservices.co.nz#navigation-whoweare"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
+            },
+            "page": "https://www.turfservices.co.nz#quote"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
+            },
+            "page": "https://www.turfservices.co.nz#hydroseeding"
+        }
+    ],
+    [
+        "www.turfservices.co.nz",
+        "1",
+        "Agriculture",
+        "113",
+        "Turf Growing"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Bees and Bejo: natural partners"
+                ],
+                "keywords": [
+                    "natural"
+                ]
+            },
+            "page": "https://www.Premierseeds.co.nz/magazine-0"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Bees and bejo: natural partners"
+                ],
+                "keywords": [
+                    "natural"
+                ]
+            },
+            "page": "https://www.Premierseeds.co.nz/"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "natural"
+                ]
+            },
+            "page": "https://www.Premierseeds.co.nz#main-content"
+        }
+    ],
+    [
+        "www.Premierseeds.co.nz",
+        "1",
+        "Agriculture",
+        "122",
+        "Vegetable Growing (Under Cover)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Freshest microgreens from our farm to your professional kitchen.",
+                    "The stems are pink and the leaves are dark green. The perfect color combination. China Rose Radish has a sharp taste that can be used beautifully to diversify salads, fish and meat.",
+                    "Red Russian Kale microgreens has no bitterness as a mature Kale. It is mildly sweet.",
+                    "straight a way in to your kitchen. We provide you another hydro-trays to store your microgreens trays tidy at your kitchen.\u00a0",
+                    "few seconds of cycle\u00a0",
+                    "Microgreens",
+                    "Has nice\u00a0dark green feathery foliage. Great as a garnish with fish.",
+                    "colourful herb with\u00a0bright green leaves and red veins and rims. Strong mustard\u00a0",
+                    "Little Stem Microgreens | Microgreens For Chefs | Christchurch",
+                    "Delivery is every Tuesday and Friday of live trays so you can have the freshest microgreens. Minimum weekly orders of 2 trays will receive free delivery twice a week in the central city. Delivery outside the city centre of Christchurch will be calculated on request.\u00a0",
+                    "As a chef, you will get the freshest microgreens as can be. Live trays going\u00a0",
+                    "View microgreens varieties.",
+                    "Great for making green healthy shots. Rich in vitamins and nice green colour after mixing process.",
+                    "Rambo radish is a spectacular shade of purple that adds crunch, radish flavor and amazingly colorful highlights to any microgreen salad or as a meat garnish."
+                ],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
+            },
+            "page": "https://www.littlestemmicrogreens.co.nz"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Germination and growing times are dependent on temperature. Generally, the warmer the environment the faster your microgreens will grow. Your microgreens can be ready to eat in just 10 days during the summer season; during winter expect the growing time to be slightly longer.",
+                    "1x bag of organic soil.",
+                    "1x bag of microgreen seeds.",
+                    "Home growing kits | Little Stem Microgreens",
+                    "Growing microgreens is fun and rewarding. By planting your microgreens in organic soil and using the natural light of the sun, this gives you the most flavourful final product. You will be a part of the exciting process of seed germination all the way through to harvesting your fresh microgreens.\u00a0",
+                    "1x brochure of our other microgreen kit varieties\u00a0",
+                    "Our kits are packaged using ECOware bamboo fibre that is certified for commercial composting. Our brochures and labels inside of our kits are all printed on paper without lamination. For our external paper labels, we have used an eco-laminate designed to degrade shortly after disposal. Our use of sustainable materials ensures our kits are entirely free from plastic and any contribution to landfill.\u00a0",
+                    "Each kit includes a commercially compostable bamboo tray and lid made by ECOware containing:"
+                ],
+                "keywords": [
+                    "compostable",
+                    "eco",
+                    "green",
+                    "natural",
+                    "organic",
+                    "sustainable"
+                ]
+            },
+            "page": "https://www.littlestemmicrogreens.co.nz/home-growing-kits"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Where to buy | Little Stem Microgreens",
+                    "Now you can find our microgreens in your local Freshchoice at Parklands.",
+                    "If you are a chef or a business owner in hospitality. You can now get our fresh harvested microgreens from our partner - Service Foods."
+                ],
+                "keywords": [
+                    "green"
+                ]
+            },
+            "page": "https://www.littlestemmicrogreens.co.nz/where-to-buy"
+        }
+    ],
+    [
+        "www.littlestemmicrogreens.co.nz",
+        "1",
+        "Agriculture",
+        "122",
+        "Vegetable Growing (Under Cover)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "By recognizing the nutritional requirements of each changing season, we aim to offer a range of products that can help balance and stabilize the body. We provide\u00a0personalized programs to identify local\u00a0climates and provide suggestions for seasonal food choices.",
+                    "Travel even further to our South Island, and you will soon discover that we are the planet\u2019s least crowded country, a wild and natural environment free of virtually all human activity.\u00a0\u00a0Nestled in the south west corner of the South Island, you will find Organic Farm New Zealand \u2013 an incredibly remote region, free from light and air pollution with a naturally balanced organic ecosystem unlike any other on earth.",
+                    "office@organicfarmnz.co.nz",
+                    "Our passion for food technology innovation and top quality organic ingredients\u00a0combine\u00a0to create products which offer the highest level of nutritional and health benefits, with an emphasis on rejuvenation. \u00a0Our black garlic, manuka honey and high-yield enzyme extracts offer promising benefits in this field.",
+                    "You can find us at the bottom of the world in New Zealand.\u00a0\u00a0With naturally balanced and thriving ecosystems and air that originates from the distant oceans around Antarctica, we are one of the last places on earth to enjoy pure, untouched nature.\u00a0\u00a0Getting here is quite the journey.",
+                    "Organic Farm New Zealand specializes in high-impact nutritional supplements, meal replacements and snack foods. \u00a0Our farm has been BioGro certified since 2006, and we take pride in our long history of\u00a0sustainable, organic farming practices.",
+                    "As you pass the equator, you leave behind 90% of the world\u2019s population, and a natural occurring protective \u2018chemical equator\u2019 insulates us from the Northern Hemisphere\u2019s pollution.\u00a0Keep heading south to the last populated nation before you reach Antarctica, you will find New Zealand, a remote country deep in the South Pacific, vast distances from the world\u2019s population.",
+                    "Organic Farm New Zealand will be launching a range of artesian organic baked goods. \u00a0Contact us for enquiries and orders."
+                ],
+                "keywords": [
+                    "eco",
+                    "natural",
+                    "organic",
+                    "sustainable"
+                ]
+            },
+            "page": "https://organicfarmnz.co.nz"
+        }
+    ],
+    [
+        "organicfarmnz.co.nz",
+        "1",
+        "Agriculture",
+        "123",
+        "Vegetable Growing (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "We are a local Matarau Family business, growing spray free salad vegetables for the health conscious Kiwi. We manage our soil as naturally as we can to produce the healthiest and most tasty veggies possible. You too can pick up some fresh produce by visiting our farmstall, one of our distribution partners or (for commercial buyers), contacting us directly."
+                ],
+                "keywords": [
+                    "natural"
+                ]
+            },
+            "page": "https://misty-valley-veg-limited.business.site/"
+        }
+    ],
+    [
+        "misty-valley-veg-limited.business.site",
+        "1",
+        "Agriculture",
+        "123",
+        "Vegetable Growing (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "SCARLET is a vibrant red Amaranthus suitable for sprouting and microgreen production.",
+                    "attractive sunflower that adds a unique nutty flavour to any microgreen mix or is a unique stand alone product...",
+                    "A purple daikon radish bred specifically for Sprouting and Microgreen production.",
+                    "ELEKTRA is a high quality red kale for microgreen production which produces a vibrant red leaf with a high gloss finish. Delicate heart shaped leaves are a key feature of this variety.",
+                    "SCARLET is a vibrant red Amaranthus suitable for sprouting and microgreen production.",
+                    "attractive sunflower that adds a unique nutty flavour to any microgreen mix or is a unique stand alone product...",
+                    "A purple daikon radish bred specifically for Sprouting and Microgreen production.",
+                    "ELEKTRA is a high quality red kale for microgreen production which produces a vibrant red leaf with a high gloss finish. Delicate heart shaped leaves are a key feature of this variety.",
+                    "Field, greenhouse, untreated, organic",
+                    "The award winning KALETTES\u00ae is the product of 15 years of hard work and dedication, using traditional breeding techniques! A brand new vegetable which looks a little like a tiny cabbage with green frilly leaves and streaks of purple\u2026",
+                    "The award winning KALETTES\u00ae is the product of 15 years of hard work and dedication, using traditional breeding techniques! A brand new vegetable which looks a little like a tiny cabbage with green frilly leaves and streaks of purple\u2026",
+                    "Field, greenhouse, untreated, organic"
+                ],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com."
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "We sell an extensive range of vegetable seed for commercial growers within New Zealand and the Pacific Islands and our customer service is second to none in supplying customers with their seed requirements.",
+                    "Our varieties are tested on farm or the greenhouse in New Zealand and selected to meet specifications from the grower through to the consumer"
+                ],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
+            },
+            "page": "https://www.spsnz.com/our-story"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Microgreens",
+                    "SCARLET is a vibrant red Amaranthus suitable for sprouting and microgreen production. SCARLET is a unique product with regards to flavour and cotyledon characteristics. The cotyledons are oval shaped with a slight point and have a vibrant red colour."
+                ],
+                "keywords": [
+                    "green"
+                ]
+            },
+            "page": "https://www.spsnz.com/our-products/microgreens/amaranthus/scarlet"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com/"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com#collapse-2"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com#collapse-cat-9"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com#collapse-cat-11"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com#collapse-cat-75"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com#collapse-cat-14"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com#collapse-cat-92"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com#collapse-cat-35"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com#collapse-cat-19"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com#collapse-cat-21"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com#collapse-cat-22"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com#collapse-cat-26"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com#collapse-cat-27"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green",
+                    "organic"
+                ]
+            },
+            "page": "https://www.spsnz.com#collapse-cat-28"
+        }
+    ],
+    [
+        "www.spsnz.com",
+        "1",
+        "Agriculture",
+        "111",
+        "Nursery Production (Under Cover)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Vertical microfarm specialising in Microgreens",
+                    "About Microgreens",
+                    "Shop Microgreens Now",
+                    "Don't be fooled by the name, Microgreens pack a serious nutirional punch with 4 to 40 x the nutritional benefit of fully grown vegetables! ",
+                    "Microgreens",
+                    "Microgreens come in so many shapes and colours, but only one size - Micro! Their adorable appeal makes them one of the trendiest products in the culinary world",
+                    "The ultimate sustainable superfood",
+                    "What is all the fuss about microgreens?",
+                    "Microgreens are mini seedlings of various vegetables and herbs harvested at the beginning of their growth cycle to achieve a superior concentration of nature's nutrients. Delivering up to 40x the vitamins and minerals than their fully grown counterparts, microgreens super-charge your meals, juices, smoothies or salads, or are a delicious snack all on their own!",
+                    "Microgreens are packed with intense, unique and complex flavor and texture profiles.",
+                    "Our microgreens are grown using vertical farming practices, meaning we are 'micro' in size\u00a0 compared to regular produce farms.\u00a0",
+                    "About Microgreens | Fernside Microfarm"
+                ],
+                "keywords": [
+                    "green",
+                    "sustainable"
+                ]
+            },
+            "page": "https://www.microfarm.co.nz/about-microgreens"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Microgreen Blend Seeds - 25g",
+                    "Microgreen Sunflower Seeds - 90g",
+                    "Microgreen Pea Seeds - 200g"
+                ],
+                "keywords": [
+                    "green"
+                ]
+            },
+            "page": "https://www.microfarm.co.nz/shop"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Microgreens | Fernside Microfarm"
+                ],
+                "keywords": [
+                    "green"
+                ]
+            },
+            "page": "https://www.microfarm.co.nz"
+        }
+    ],
+    [
+        "www.microfarm.co.nz",
+        "1",
+        "Agriculture",
+        "122",
+        "Vegetable Growing (Under Cover)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "kilbirnieorders@commonsenseorganics.co.nz",
+                    "gborganics@xtra.co.nz",
+                    "contact@sevenfieldsorganic.com",
+                    "info@organicnation.co.nz",
+                    "cornucopiaorganics@gmail.com",
+                    "mail@downtoearthorganics.co.nz",
+                    "huttorders@commonsenseorganics.co.nz",
+                    "WellingtonOrders@Commonsenseorganics.co.nz",
+                    "kapitiorders@commonsenseorganics.co.nz",
+                    "theorganicgrocer@email.com"
+                ],
+                "keywords": [
+                    "organic"
+                ]
+            },
+            "page": "https://www.waihekeherbs.co.nz#page"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Taking the Herb Spread to Farmers Markets in Auckland over the next few years, confirmed it's popularity and convinced Wendy to approach organic stores and supermarkets throughout New Zealand including Farro Fresh, Huckleberry's, Commonsense Organics, Fresh Choice, and select New World stores where it is now well established, with more outlets coming!",
+                    "A lifelong passion for herbs, healthy living and wholesome food inspired Wendy Kendall to develop a range of products using 100% natural and delicious ingredients to help nourish and heal her family and friends.",
+                    "The herbs that we can\u2019t grow in our dry, windy gardens, are sourced from quality NZ growers who also care about sustainability, organics and a family- orientated team culture.",
+                    "Waiheke Herbs seeks to inspire our customers towards healthier food and lifestyle choices,  and a closer connection to our beautiful and precious natural environment. ",
+                    "Our other food ingredients and oils are sourced from organic suppliers where possible; ",
+                    "In 1985, she began attending a series of courses and workshops in herbalism, nutrition, natural body-care and healing, and was particularly interested in using wild weeds and native plants. She soon began making her own skin-care products, spreads and condiments.",
+                    "Anyone can support this revolution by choosing products made using ethical ingredients and practices, sustainably, organic, by local producers and growers who are working in harmony with nature rather than against it.\""
+                ],
+                "keywords": [
+                    "natural",
+                    "organic"
+                ]
+            },
+            "page": "https://www.waihekeherbs.co.nz/about-1"
+        }
+    ],
+    [
+        "www.waihekeherbs.co.nz",
+        "1",
+        "Agriculture",
+        "122",
+        "Vegetable Growing (Under Cover)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "A family-owned business flourishing in the lush green region of Taranaki",
+                    "Slaters Orchids is a New Zealand family business flourishing in the lush green region of ",
+                    "The four main colour ranges are pink, green, white and yellow. Within that colour palette there are many different shades and characteristics. The flowers also come in the novelty hues of orange, brown and burgundy."
+                ],
+                "keywords": [
+                    "green"
+                ]
+            },
+            "page": "https://www.slatersorchids.co.nz#top"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Slater's Orchids is a New Zealand family-owned business flourishing in the lush green region of Taranaki.",
+                    "Potted orchids need a little more care. Plants your orchid in a pot filled with coarse potting mix for good air flow and free drainage such as pumice or bark. They like their roots to be tightly bound within the pot. In the summer Orchid plants will need to be sheltered from wind and rain and direct sunlight between late morning and mid afternoon. On extra hot days your cymbidiums will benefit from mistings. Expose your orchids to as much light as possible from late autumn through to winter to help the plants mature and harden. In winter its best to water early on fine sunny days so the plants can dry off before nightfall. Once your plants have finished flowering they can can be placed under a sheltered hedge until they spike again if not in a greenhouse. Finally remember to water your orchids and apply fertiliser and they will reward you well. NOTE: we only sell orchid plants from our nursery only - no courier service available.",
+                    "From humble beginnings in 1986, we now have a staff of 12 and greenhouses covering 9500 square metres of land at Bell Block, just north of New Plymouth."
+                ],
+                "keywords": [
+                    "green"
+                ]
+            },
+            "page": "https://www.slatersorchids.co.nz/about/"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "green"
+                ]
+            },
+            "page": "https://www.slatersorchids.co.nz#content"
+        }
+    ],
+    [
+        "www.slatersorchids.co.nz",
+        "1",
+        "Agriculture",
+        "114",
+        "Floriculture Production (Under Cover)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Welcome to Kaimai Greens Your Microgreen Expert Grower",
+                    "What to add microgreens to",
+                    "What to add microgreens to",
+                    "What to add microgreens to",
+                    "What to add microgreens to",
+                    "Microgreens are seedling vegetables, or herbs which are smaller than baby greens yet larger than sprouts. \u00a0We grow a wide range of greens in Matamata.",
+                    "Microgreens are seedling vegetables, or herbs which are smaller than baby greens yet larger than sprouts. \u00a0We grow a wide range of greens in Matamata.",
+                    "Microgreens are seedling vegetables, or herbs which are smaller than baby greens yet larger than sprouts. \u00a0We grow a wide range of greens in Matamata.",
+                    "Microgreens are seedling vegetables, or herbs which are smaller than baby greens yet larger than sprouts. \u00a0We grow a wide range of greens in Matamata.",
+                    "Microgreens contain up to 40 times more\u00a0nutrients",
+                    "We produce fresh microgreens all year round. We have Biogro organic certification which means we don\u2019t use pesticides or herbicides. We use only organic soil. \u00a0Where possible we source and use organic seed, and all seed used is GE free.\u00a0Kaimai Greens maintains all good food practices and is registered under- NP1 Pursuant to section 88 of the Food Act 2014.",
+                    "We produce fresh microgreens all year round. We have Biogro organic certification which means we don\u2019t use pesticides or herbicides. We use only organic soil. \u00a0Where possible we source and use organic seed, and all seed used is GE free.\u00a0Kaimai Greens maintains all good food practices and is registered under- NP1 Pursuant to section 88 of the Food Act 2014.",
+                    "Why Microgreens?",
+                    "Why Microgreens?",
+                    "Why Microgreens?",
+                    "*research according to university of maryland college of agriculture and natural resources (AGNR) and the united states department of agriculture (USDA).",
+                    "*research according to university of maryland college of agriculture and natural resources (AGNR) and the united states department of agriculture (USDA).",
+                    "*research according to university of maryland college of agriculture and natural resources (AGNR) and the united states department of agriculture (USDA).",
+                    "We produce fresh microgreens all year round. We have Biogro organic certification which means we don\u2019t use pesticides or herbicides. We use only organic soil. \u00a0Where possible we source and use organic seed, and all seed used is GE free.\u00a0Kaimai Greens maintains all good food practices and is registered under- NP1 Pursuant to section 88 of the Food Act 2014.",
+                    "We produce fresh microgreens all year round. We have Biogro organic certification which means we don\u2019t use pesticides or herbicides. We use only organic soil. \u00a0Where possible we source and use organic seed, and all seed used is GE free.\u00a0Kaimai Greens maintains all good food practices and is registered under- NP1 Pursuant to section 88 of the Food Act 2014."
+                ],
+                "keywords": [
+                    "green",
+                    "natural",
+                    "organic"
+                ]
+            },
+            "page": "https://kaimaigreens.co.nz/"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Microgreen Care",
+                    "If you are interested in looking after your microgreens for a little longer, talk to us about how to keep your microgreen at their best longer.",
+                    "Lush green leaves, soup, salads, sushi",
+                    "Lush green and super healthy, peppery, soups , salads, sandwiches mains",
+                    "Asian mustard, green feathery leaves. A great filler, great with salads and seafood",
+                    "Sweet tasting green tendrils. Garnish, seafood or ice in salad or sandwiches",
+                    "Intense purple stems and green leaves. garnish, salads, great colour lift"
+                ],
+                "keywords": [
+                    "green"
+                ]
+            },
+            "page": "https://kaimaigreens.co.nz/our-micros"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "microgreens",
+                    "What is a Microgreen?",
+                    "We produce fresh microgreens all year round. We have Biogro organic certification which means we don\u2019t use pesticides or herbicides. We use only organic soil. \u00a0Where possible we source and use organic seed, and all seed used is GE free.\u00a0",
+                    "There are many great bonuses by adding microgreens to your diet, not only will you feel better you will find they taste great with your cooking too. Check out some more information about how to use them and what their nutritional benefits are and how to make them last longer in your home! Packaging is grade 1 recyclable plastic",
+                    "Microgreen Nutrients",
+                    "No chemicals, No artificial fertilisers, No nasties, only what mother nature provides, we want to make sure our plants are as natural as possible for you to eat."
+                ],
+                "keywords": [
+                    "green",
+                    "natural",
+                    "organic",
+                    "recyclable"
+                ]
+            },
+            "page": "https://kaimaigreens.co.nz/about-us/"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "kaimai.greens@outlook.co.nz"
+                ],
+                "keywords": [
+                    "green"
+                ]
+            },
+            "page": "https://kaimaigreens.co.nz/contact-us"
+        }
+    ],
+    [
+        "kaimaigreens.co.nz",
+        "1",
+        "Agriculture",
+        "122",
+        "Vegetable Growing (Under Cover)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "We help you learn to homestead, no matter where you live. Grow your own food and build your independence by joining our community, and become what your great grandparents would be proud of."
+                ],
+                "keywords": [
+                    "eco"
+                ]
+            },
+            "page": "https://piwakawakavalley.com#"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco"
+                ]
+            },
+            "page": "https://piwakawakavalley.com#content"
+        }
+    ],
+    [
+        "piwakawakavalley.com",
+        "1",
+        "Agriculture",
+        "123",
+        "Vegetable Growing (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Organic Microgreens Loose on orders less than 400g (eg cafes): ",
+                    "matt@northlandnaturals.co.nz",
+                    "Organic Microgreens",
+                    "matt@northlandnaturals.co.nz ",
+                    "Organic Microgreens on Special:",
+                    "matt@northlandnaturals.nz",
+                    "Organic Microgreens in compostable clam shells (for retail stores with good display):",
+                    "Microgreens bulk box:\u00a0$30. Includes 6x $6\u00a0bags of microgreens",
+                    "Organic Microgreens in Heat-Sealed Compostable Plastic Bags (also for retail stores, lower-cost packaging):\u00a0",
+                    "Organic Microgreens Loose on orders over 400g (eg high-end restaurants, or anyone who strongly believes in supporting local and organics and is willing to pay more\u00a0for them):",
+                    "Leafy greens box: Coming Soon. Depending on seasonal availability, may include\u00a0mesclun, spinach, kale, silverbeet, celery, pak choi, and kale"
+                ],
+                "keywords": [
+                    "compostable",
+                    "green",
+                    "natural",
+                    "organic"
+                ]
+            },
+            "page": "https://northlandnaturals.nz/produce"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "matt@northlandnaturals.nz\u00a0"
+                ],
+                "keywords": [
+                    "natural"
+                ]
+            },
+            "page": "https://northlandnaturals.nz/seedlings"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "Northland Naturals makes fresh, affordable, organic produce available throughout Northern New Zealand. This includes field and greenhouse-grown microgreens,\u00a0vegetables, and fruit and nut tree crops. You can purchase our produce at the Whangarei Growers\u2019 Market, Huanui Fresh"
+                ],
+                "keywords": [
+                    "green",
+                    "natural",
+                    "organic"
+                ]
+            },
+            "page": "https://northlandnaturals.nz"
+        }
+    ],
+    [
+        "northlandnaturals.nz",
+        "1",
+        "Agriculture",
+        "123",
+        "Vegetable Growing (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "This is the kind of salad that's even better the next day. The zucchini takes on the salty olive\u00a0flavour and the feta softens and becomes part of the dressing. Super handy if you're in need to get a dish out of the way the day before!",
+                    "Pattypan, summer squash, scallopini - whatever you call it, this is one of our favourite crops. Full of yellow and green sunshine, they look like happyness itself!"
+                ],
+                "keywords": [
+                    "eco",
+                    "green"
+                ]
+            },
+            "page": "https://salty-river-farm-shop.myshopify.com/blogs/salty-river-farm-recipes"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "\n                \"Wonderfully fresh produce and as a result lasts much longer. Friendly service, which you can't get in a supermarket. I recommend you read Salty River's farm philosophy on their website. Love the idea of supporting small businesses! Definitely recommend you try Salty River produce. Enjoy!\"           Alexandra\n              "
+                ],
+                "keywords": [
+                    "eco"
+                ]
+            },
+            "page": "https://salty-river-farm-shop.myshopify.com#page-wrap-content"
+        },
+        {
+            "textsWithKeyWords": {
+                "text": [],
+                "keywords": [
+                    "eco"
+                ]
+            },
+            "page": "https://salty-river-farm-shop.myshopify.com#content"
+        }
+    ],
+    [
+        "salty-river-farm-shop.myshopify.com",
+        "1",
+        "Agriculture",
+        "123",
+        "Vegetable Growing (Outdoors)"
+    ],
+    [
+        {
+            "textsWithKeyWords": {
+                "text": [
+                    "We seek out the best organic and natural food products New Zealand has to offer. ",
+                    "We seek out the best organic and natural food products New Zealand has to offer. ",
+                    "We seek out the best organic and natural food products New Zealand has to offer. ",
+                    "We seek out the best organic and natural food products New Zealand has to offer. "
+                ],
+                "keywords": [
+                    "natural",
+                    "organic"
+                ]
+            },
+            "page": "https://www.nznaturalexports.co.nz#"
+        }
+    ],
+    [
+        "www.nznaturalexports.co.nz",
+        "1",
+        "Agriculture",
+        "114",
+        "Floriculture Production (Under Cover)"
+    ]
 ]
