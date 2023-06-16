@@ -14,7 +14,6 @@ def join(arr):
 class outputData:
     def __init__(self, data, domain, domainData, keywords, duplicateText) -> None:
         print("saving output data" + domain)
-        self.updateOutputFile([data, domainData])
         self.doaminaData = domainData
         self.keywords = fileManager("keywords.json").loadData()
         self.data = data

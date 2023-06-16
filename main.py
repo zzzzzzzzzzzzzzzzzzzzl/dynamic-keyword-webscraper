@@ -29,7 +29,13 @@ def startDriver(
             onComplete()
             tracker.saveData()
         except:
-            print("failed")
+            print("=========================webdriver failed=========================")
+            print("=========================webdriver failed=========================")
+            print("=========================webdriver failed=========================")
+            print("=========================webdriver failed=========================")
+            print("=========================webdriver failed=========================")
+            print("=========================webdriver failed=========================")
+            print("=========================webdriver failed=========================")
 
 
 def runThreads(target, threadCount):
@@ -45,9 +51,9 @@ def runThreads(target, threadCount):
         i.join()
 
 
-runThreads(startDriver, 40)  # main loop
+runThreads(startDriver, 10)  # main loop
 tracker.resetInprogress()
-runThreads(startDriver, 40)  # clean up #stuck in progress
+runThreads(startDriver, 10)  # clean up #stuck in progress
 tracker.resetInprogress()
 runThreads(startDriver, 10)  # clean up #stuck in progress
 tracker.resetInprogress()
