@@ -11,7 +11,7 @@ timeOut = 1000  # seconds
 
 csvData = readCsvFile("data/inputData.csv").pop(0)
 # driver(["https://greypower.co.nz/"], "n", 1, 20)
-if get_csv_length("data/Data.csv") == 0:
+if get_csv_length("data/data.csv") == 0:
     outputData.firstLineCsv()
 
 
