@@ -47,14 +47,15 @@ class driver:
         #         self.keywords,
         #         duplicatetext,
         #     )
-
-        fileManager(f"{self.idx}.json", self.textWithKeyWords).save()
+        print("saving")
+        fileManager(f"{self.idx}.json", [self.textWithKeyWords, "testing"]).save()
 
     def getRunTime(self):
         if (time.time() - self.startTime) > self.timeOutAfter:
             self.timeout = True
 
     def getFullUrl(self, link):
+        self.link = link
         branchFull = self.tree.addLink(link)
         if branchFull:
             return True
@@ -77,16 +78,17 @@ class driver:
         if url not in self.visitedUrls:
             self.url = url
 
-            try:
-                self.driver.get(url)
-                self.parseHtml()
-                self.visitedUrls.append(url)
-                return True
-            except:
-                print("failed to get url")
-                self.failedToGetUrl.append(url)
-                self.visitedUrls.append(url)
-                return False
+        # try:
+        self.driver.get(url)
+        self.parseHtml()
+        self.visitedUrls.append(url)
+        return True
+
+    # except:
+    #     print("failed to get url")
+    #     self.failedToGetUrl.append(url)
+    #     self.visitedUrls.append(url)
+    #     return False
 
     def parseHtml(self):
         self.soup = BeautifulSoup(self.driver.page_source, "html.parser")
@@ -100,48 +102,56 @@ class driver:
 
     #         text = [text.string for text in self.soup.find_all(filterByKeyword)]
     #         if text:
-    #             textWithKeyword["text"] = textWithKeyword["text"] + [
+    #             textWithKeyword = textWithKeyword + [
     #                 text.string for text in text
     #             ]
     #             textWithKeyword["keywords"] = textWithKeyword["keywords"] + [keyword]
 
-    #     if textWithKeyword["text"]:
+    #     if textWithKeyword:
     #         self.textWithKeyWords = self.textWithKeyWords + [
     #             {
     #                 "textsWithKeyWords": [
-    #                     textWithKeyword["text"],
+    #                     textWithKeyword,
     #                     self.soup.prettify(),
     #                 ],
     #                 "page": self.url,
     #             }
     #         ]
+    def keyWordDictGen(self):
+        dict = {}
+        for i in self.keywords:
+            dict[i] = False
+        return dict
+
     def findTextWithKeyword(self):
-        textWithKeyword = {"text": [], "keywords": []}
-        for keyword in self.keywords:
+        keywordDict = self.keyWordDictGen()
+        textWithKeyword = []
+        tagFilter = ["style"]
+        for i in self.soup.findAll():
+            if i.name not in tagFilter:
+                append = False
 
-            def filterByKeyword(tag):
-                return keyword in str(tag.string).lower()
+                for keyword in self.keywords:
+                    if keyword in str(i.text).lower():
+                        append = keyword
+                        keywordDict[keyword] = True
 
-            text = [text.string for text in self.soup.find_all(filterByKeyword)]
-            if text:
-                textWithKeyword["text"] = textWithKeyword["text"] + [
-                    text.string for text in text
-                ]
-                textWithKeyword["keywords"] = textWithKeyword["keywords"] + [keyword]
+                if append:
+                    for j in textWithKeyword:
+                        if i.text in j["text"]:
+                            textWithKeyword.remove(j)
+                    textWithKeyword.append({"text": i.text, "tag": i.name})
 
-        if textWithKeyword["text"]:
+        if textWithKeyword:
             self.textWithKeyWords = self.textWithKeyWords + [
                 {
-                    "textsWithKeyWords": [
-                        textWithKeyword["text"],
-                        self.soup.prettify(),
-                    ],
+                    "textsWithKeyWords": textWithKeyword,
+                    "keywords": keywordDict,
                     "page": self.url,
                 }
             ]
 
     def getInternalLinks(self):
-        time.sleep(0.1)
         internalLinks = []
         for anchor in self.soup.find_all("a"):
             href = anchor.get("href")
@@ -172,7 +182,7 @@ class driver:
             return goturl
 
     def iterateThroughInternalLinks(self, recusions=0):
-        time.sleep(0.5)
+        self.tree.saveTreeJson()
         self.getRunTime()
         if self.timeout:
             print(

@@ -28,11 +28,8 @@ class fileManager:
 
     def save(self):
         with open(self.path, "w") as json_file:
-            # try:
             json.dump(self.data, json_file, indent=4)
             print(self.filename, "saved successfully")
-            # except:
-            print("saving to Json failed err")
 
     def loadData(self):
         try:

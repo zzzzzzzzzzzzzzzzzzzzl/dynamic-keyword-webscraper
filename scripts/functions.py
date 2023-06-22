@@ -75,10 +75,9 @@ def getBoolKeywordsAndFlattenText(data):
         for j in data:
             for k in j["textsWithKeyWords"]["text"]:
                 if i in k:
-                    textArr.append(k)
                     boolkeywords[i] = True
     boolkeywords = list(boolkeywords.values())
-    return boolkeywords, textArr
+    return boolkeywords
 
 
 def getBoolKeywordsPage(data):

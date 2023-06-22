@@ -1,4 +1,3 @@
-from scripts.outputData import *
-from scripts.functions import *
-
-formatJson("keywords.json")
+arr = ["a", "b", "c"]
+for idx, i in enumerate(arr):
+    print(idx, len(arr))
