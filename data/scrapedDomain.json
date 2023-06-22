@@ -1,7 +1,50 @@
 {
-    "Completed": [
+    "Completed": [],
+    "Incompleted": [
+        [
+            "aquascapeshop.com",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
         [
             "harewoodplants.co.nz",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
+        [
+            "kakanonurseries.co.nz",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
+        [
+            "totaraglen.co.nz",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
+        [
+            "weathersfieldorganics.co.nz",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
+        [
+            "www.capitalplants.co.nz",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
+        [
+            "www.cridgeseeds.co.nz",
             "1",
             "Agriculture",
             "111",
@@ -15,11 +58,39 @@
             "Nursery Production (Under Cover)"
         ],
         [
-            "www.herbsnz.co.nz",
+            "www.elliotts.co.nz",
             "1",
             "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
+        [
+            "www.fabflora.co.nz",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
+        [
+            "www.hillnurseries.co.nz",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
+        [
+            "www.korimakohabitats.co.nz",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
+        [
+            "www.midlandsnz.com",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
         ],
         [
             "www.nativegarden.co.nz",
@@ -29,7 +100,77 @@
             "Nursery Production (Under Cover)"
         ],
         [
-            "waihekenativeplants.que.tm",
+            "www.organicseedlings.co.nz",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
+        [
+            "www.spsnz.com",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
+        [
+            "www.tasmanbayherbs.co.nz",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
+        [
+            "www.zealandia.co.nz",
+            "1",
+            "Agriculture",
+            "111",
+            "Nursery Production (Under Cover)"
+        ],
+        [
+            "ambergardencentre.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "ardmorenurseries.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "awapuni.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "bulbsdirect.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "Gilesnursery.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "goziesaffron.com",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "stanmorefarm.co.nz",
             "1",
             "Agriculture",
             "112",
@@ -43,6 +184,69 @@
             "Nursery Production (Outdoors)"
         ],
         [
+            "vinenursery.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "waihekenativeplants.que.tm",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.blackbridgenurseries.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.bmn.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.concept-botanica.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.enrichwithnature.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.forestseedlings.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.herbsnz.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.littlebigtreecompany.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
             "www.mikeathyroses.com",
             "1",
             "Agriculture",
@@ -50,42 +254,105 @@
             "Nursery Production (Outdoors)"
         ],
         [
-            "www.coel.co.nz",
+            "www.millparknursery.co.nz",
             "1",
             "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
+            "112",
+            "Nursery Production (Outdoors)"
         ],
         [
-            "www.thefungi.nz",
+            "www.moutereplantnursery.co.nz",
             "1",
             "Agriculture",
-            "121",
-            "Mushroom Growing"
+            "112",
+            "Nursery Production (Outdoors)"
         ],
         [
-            "www.riverlandroses.co.nz",
+            "www.mvn.co.nz",
             "1",
             "Agriculture",
-            "114",
-            "Floriculture Production (Under Cover)"
+            "112",
+            "Nursery Production (Outdoors)"
         ],
         [
-            "www.exlersturf.co.nz",
+            "www.naturallynative.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.nhbigtrees.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.nznatives.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.plantrescue.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.restorenative.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.southernwoods.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.tehananurseries.co.nz",
+            "1",
+            "Agriculture",
+            "112",
+            "Nursery Production (Outdoors)"
+        ],
+        [
+            "www.acelandscapes.co.nz",
             "1",
             "Agriculture",
             "113",
             "Turf Growing"
         ],
         [
-            "www.bloomz.co.nz",
+            "www.canterburylawns.co.nz",
             "1",
             "Agriculture",
-            "114",
-            "Floriculture Production (Under Cover)"
+            "113",
+            "Turf Growing"
         ],
         [
-            "www.canterburylawns.co.nz",
+            "www.easylawn.co.nz",
+            "1",
+            "Agriculture",
+            "113",
+            "Turf Growing"
+        ],
+        [
+            "www.erosioncontrol.co.nz",
+            "1",
+            "Agriculture",
+            "113",
+            "Turf Growing"
+        ],
+        [
+            "www.exlersturf.co.nz",
             "1",
             "Agriculture",
             "113",
@@ -99,14 +366,56 @@
             "Turf Growing"
         ],
         [
-            "www.klnurseries.co.nz",
+            "www.lawnandturf.co.nz",
             "1",
             "Agriculture",
-            "114",
-            "Floriculture Production (Under Cover)"
+            "113",
+            "Turf Growing"
+        ],
+        [
+            "www.lawnprosolutions.co.nz",
+            "1",
+            "Agriculture",
+            "113",
+            "Turf Growing"
+        ],
+        [
+            "www.myturf.co.nz",
+            "1",
+            "Agriculture",
+            "113",
+            "Turf Growing"
+        ],
+        [
+            "www.parklandsturf.co.nz",
+            "1",
+            "Agriculture",
+            "113",
+            "Turf Growing"
+        ],
+        [
+            "www.pimpmylawn.co.nz",
+            "1",
+            "Agriculture",
+            "113",
+            "Turf Growing"
+        ],
+        [
+            "www.readylawn.co.nz",
+            "1",
+            "Agriculture",
+            "113",
+            "Turf Growing"
         ],
         [
             "www.superseeders.co.nz",
+            "1",
+            "Agriculture",
+            "113",
+            "Turf Growing"
+        ],
+        [
+            "www.taranakiturf.co.nz",
             "1",
             "Agriculture",
             "113",
@@ -120,11 +429,144 @@
             "Turf Growing"
         ],
         [
+            "www.turfservices.co.nz",
+            "1",
+            "Agriculture",
+            "113",
+            "Turf Growing"
+        ],
+        [
+            "clandondaffodils.co.nz",
+            "1",
+            "Agriculture",
+            "114",
+            "Floriculture Production (Under Cover)"
+        ],
+        [
+            "delphinium.co.nz",
+            "1",
+            "Agriculture",
+            "114",
+            "Floriculture Production (Under Cover)"
+        ],
+        [
+            "jaunayorchids.com",
+            "1",
+            "Agriculture",
+            "114",
+            "Floriculture Production (Under Cover)"
+        ],
+        [
+            "www.bloomz.co.nz",
+            "1",
+            "Agriculture",
+            "114",
+            "Floriculture Production (Under Cover)"
+        ],
+        [
+            "www.klnurseries.co.nz",
+            "1",
+            "Agriculture",
+            "114",
+            "Floriculture Production (Under Cover)"
+        ],
+        [
+            "www.nznaturalexports.co.nz",
+            "1",
+            "Agriculture",
+            "114",
+            "Floriculture Production (Under Cover)"
+        ],
+        [
+            "www.plentyflora.co.nz",
+            "1",
+            "Agriculture",
+            "114",
+            "Floriculture Production (Under Cover)"
+        ],
+        [
+            "www.riverlandroses.co.nz",
+            "1",
+            "Agriculture",
+            "114",
+            "Floriculture Production (Under Cover)"
+        ],
+        [
+            "www.slatersorchids.co.nz",
+            "1",
+            "Agriculture",
+            "114",
+            "Floriculture Production (Under Cover)"
+        ],
+        [
+            "fungal.co.nz",
+            "1",
+            "Agriculture",
+            "121",
+            "Mushroom Growing"
+        ],
+        [
+            "houseoffungi.com",
+            "1",
+            "Agriculture",
+            "121",
+            "Mushroom Growing"
+        ],
+        [
+            "meadowmushrooms.co.nz",
+            "1",
+            "Agriculture",
+            "121",
+            "Mushroom Growing"
+        ],
+        [
+            "mycobio.co.nz",
+            "1",
+            "Agriculture",
+            "121",
+            "Mushroom Growing"
+        ],
+        [
+            "www.ballebros.co.nz",
+            "1",
+            "Agriculture",
+            "121",
+            "Mushroom Growing"
+        ],
+        [
+            "www.matarikimushrooms.nz",
+            "1",
+            "Agriculture",
+            "121",
+            "Mushroom Growing"
+        ],
+        [
             "www.omegamushrooms.co.nz",
             "1",
             "Agriculture",
             "121",
             "Mushroom Growing"
+        ],
+        [
+            "www.parkvale.co.nz",
+            "1",
+            "Agriculture",
+            "121",
+            "Mushroom Growing"
+        ],
+        [
+            "www.thefungi.nz",
+            "1",
+            "Agriculture",
+            "121",
+            "Mushroom Growing"
+        ],
+        [
+            "kaimaigreens.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
         ],
         [
             "maoproduce.co.nz",
@@ -134,7 +576,154 @@
             "Vegetable Growing (Under Cover)"
         ],
         [
+            "nzhothouse.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
+        ],
+        [
+            "www.coel.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
+        ],
+        [
+            "www.drysdalehydroponics.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
+        ],
+        [
+            "www.lefroyvalley.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
+        ],
+        [
+            "www.libertygrowers.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
+        ],
+        [
+            "www.littlestemmicrogreens.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
+        ],
+        [
+            "www.microfarm.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
+        ],
+        [
+            "www.Premierseeds.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
+        ],
+        [
+            "www.rupex.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
+        ],
+        [
+            "www.sst.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
+        ],
+        [
+            "www.superbherb.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
+        ],
+        [
+            "www.urbanroots.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
+        ],
+        [
+            "www.waihekeherbs.co.nz",
+            "1",
+            "Agriculture",
+            "122",
+            "Vegetable Growing (Under Cover)"
+        ],
+        [
+            "Amuritruffiere.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "littlefarmsnz.com",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "misty-valley-veg-limited.business.site",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "northlandnaturals.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "organicfarmnz.co.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "piwakawakavalley.com",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
             "premiumgreens.co.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "salty-river-farm-shop.myshopify.com",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "southernfresh.co.nz",
             "1",
             "Agriculture",
             "123",
@@ -148,6 +737,41 @@
             "Vegetable Growing (Outdoors)"
         ],
         [
+            "www.allengorthy.com",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.asparapacific.co.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.cultivate.org.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.ferrettigrowers.co.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.goldbushmicrofarm.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
             "www.growmygreens.co.nz",
             "1",
             "Agriculture",
@@ -155,14 +779,49 @@
             "Vegetable Growing (Outdoors)"
         ],
         [
-            "www.matarikimushrooms.nz",
+            "www.jsewers.co.nz",
             "1",
             "Agriculture",
-            "121",
-            "Mushroom Growing"
+            "123",
+            "Vegetable Growing (Outdoors)"
         ],
         [
-            "www.cultivate.org.nz",
+            "www.kaitakefarm.co.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.kerikeriorganic.co.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.kimyoungandsons.com",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.kiwigreensurbanfarms.com",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.laughingpukeko.co.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.luxorganics.co.nz",
             "1",
             "Agriculture",
             "123",
@@ -176,6 +835,41 @@
             "Vegetable Growing (Outdoors)"
         ],
         [
+            "www.oakleys.co.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.oamaruorganics.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.sofresh.co.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.sundale.net.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.trueearth.co.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
             "www.turanga.co.nz",
             "1",
             "Agriculture",
@@ -183,18 +877,25 @@
             "Vegetable Growing (Outdoors)"
         ],
         [
-            "www.birdwines.com",
+            "www.vagabondvege.nz",
             "1",
             "Agriculture",
-            "131",
-            "Grape Growing"
+            "123",
+            "Vegetable Growing (Outdoors)"
         ],
         [
-            "gibbstonbackroadvineyard.co.nz",
+            "www.vedicorganics.nz",
             "1",
             "Agriculture",
-            "131",
-            "Grape Growing"
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "www.waikawafresh.co.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
         ],
         [
             "www.wefs.co.nz",
@@ -204,7 +905,14 @@
             "Vegetable Growing (Outdoors)"
         ],
         [
-            "springcreekestate.co.nz",
+            "www.wrightsprouts.co.nz",
+            "1",
+            "Agriculture",
+            "123",
+            "Vegetable Growing (Outdoors)"
+        ],
+        [
+            "babichwines.co.nz",
             "1",
             "Agriculture",
             "131",
@@ -218,7 +926,210 @@
             "Grape Growing"
         ],
         [
+            "burncottage.com",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "cambridgeroad.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "daywen-vineyard-grapejuice-and-organically-grown-grapes.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "eightranges.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "escarpment.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "gibbstonbackroadvineyard.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "Rannach.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "springcreekestate.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "stonecutter.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "takamatuavalley.com",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.batchwinery.com",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.birdwines.com",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.blackquail.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.brodieestate.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
             "www.brookelanevineyard.com",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.burntspur.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.clos-henri.com",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.corbansviticulture.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.craggyrange.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.dancingwater.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.dayvinleigh.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.dunnolly.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.flaxmore.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.grapevision.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.greystonewines.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.hintons.net.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.hopesgrove.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.karakapointvineyard.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.kinacliffs.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.larcombvineyard.co",
             "1",
             "Agriculture",
             "131",
@@ -239,7 +1150,21 @@
             "Grape Growing"
         ],
         [
-            "www.paperroad.co.nz",
+            "www.longviewwines.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.maoripoint.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.meltonestate.co.nz",
             "1",
             "Agriculture",
             "131",
@@ -253,21 +1178,7 @@
             "Grape Growing"
         ],
         [
-            "www.clos-henri.com",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.sundale.net.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.dancingwater.co.nz",
+            "www.mouterehills.co.nz",
             "1",
             "Agriculture",
             "131",
@@ -281,21 +1192,103 @@
             "Grape Growing"
         ],
         [
-            "Rannach.co.nz",
+            "www.owhanake.co.nz",
             "1",
             "Agriculture",
             "131",
             "Grape Growing"
         ],
         [
-            "www.mouterehills.co.nz",
+            "www.paperroad.co.nz",
             "1",
             "Agriculture",
             "131",
             "Grape Growing"
-        ]
-    ],
-    "Incompleted": [
+        ],
+        [
+            "www.pinehilllodge.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.pisarangeestate.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.pondpaddock.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.qwine.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.riverrockestate.com",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.rivertestate.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.rubybayvineyard.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.sloanviticulture.com",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.soundsconnection.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.southdown.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.takatulodge.co.nz",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
+        [
+            "www.tekanoestate.com",
+            "1",
+            "Agriculture",
+            "131",
+            "Grape Growing"
+        ],
         [
             "www.temotu.co.nz",
             "1",
@@ -104532,1002 +105525,7 @@
             "Personal and Other Services",
             "9559",
             "Other Interest Group Services n.e.c."
-        ],
-        [
-            "aquascapeshop.com",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "kakanonurseries.co.nz",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "totaraglen.co.nz",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "weathersfieldorganics.co.nz",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "www.capitalplants.co.nz",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "www.cridgeseeds.co.nz",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "www.elliotts.co.nz",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "www.fabflora.co.nz",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "www.hillnurseries.co.nz",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "www.korimakohabitats.co.nz",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "www.midlandsnz.com",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "www.organicseedlings.co.nz",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "www.spsnz.com",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "www.tasmanbayherbs.co.nz",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "www.zealandia.co.nz",
-            "1",
-            "Agriculture",
-            "111",
-            "Nursery Production (Under Cover)"
-        ],
-        [
-            "ambergardencentre.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "ardmorenurseries.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "awapuni.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "bulbsdirect.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "Gilesnursery.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "goziesaffron.com",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "stanmorefarm.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "vinenursery.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.blackbridgenurseries.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.bmn.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.concept-botanica.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.enrichwithnature.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.forestseedlings.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.littlebigtreecompany.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.millparknursery.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.moutereplantnursery.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.mvn.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.naturallynative.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.nhbigtrees.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.nznatives.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.plantrescue.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.restorenative.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.southernwoods.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.tehananurseries.co.nz",
-            "1",
-            "Agriculture",
-            "112",
-            "Nursery Production (Outdoors)"
-        ],
-        [
-            "www.acelandscapes.co.nz",
-            "1",
-            "Agriculture",
-            "113",
-            "Turf Growing"
-        ],
-        [
-            "www.easylawn.co.nz",
-            "1",
-            "Agriculture",
-            "113",
-            "Turf Growing"
-        ],
-        [
-            "www.erosioncontrol.co.nz",
-            "1",
-            "Agriculture",
-            "113",
-            "Turf Growing"
-        ],
-        [
-            "www.lawnandturf.co.nz",
-            "1",
-            "Agriculture",
-            "113",
-            "Turf Growing"
-        ],
-        [
-            "www.lawnprosolutions.co.nz",
-            "1",
-            "Agriculture",
-            "113",
-            "Turf Growing"
-        ],
-        [
-            "www.myturf.co.nz",
-            "1",
-            "Agriculture",
-            "113",
-            "Turf Growing"
-        ],
-        [
-            "www.parklandsturf.co.nz",
-            "1",
-            "Agriculture",
-            "113",
-            "Turf Growing"
-        ],
-        [
-            "www.pimpmylawn.co.nz",
-            "1",
-            "Agriculture",
-            "113",
-            "Turf Growing"
-        ],
-        [
-            "www.readylawn.co.nz",
-            "1",
-            "Agriculture",
-            "113",
-            "Turf Growing"
-        ],
-        [
-            "www.taranakiturf.co.nz",
-            "1",
-            "Agriculture",
-            "113",
-            "Turf Growing"
-        ],
-        [
-            "www.turfservices.co.nz",
-            "1",
-            "Agriculture",
-            "113",
-            "Turf Growing"
-        ],
-        [
-            "clandondaffodils.co.nz",
-            "1",
-            "Agriculture",
-            "114",
-            "Floriculture Production (Under Cover)"
-        ],
-        [
-            "delphinium.co.nz",
-            "1",
-            "Agriculture",
-            "114",
-            "Floriculture Production (Under Cover)"
-        ],
-        [
-            "jaunayorchids.com",
-            "1",
-            "Agriculture",
-            "114",
-            "Floriculture Production (Under Cover)"
-        ],
-        [
-            "www.nznaturalexports.co.nz",
-            "1",
-            "Agriculture",
-            "114",
-            "Floriculture Production (Under Cover)"
-        ],
-        [
-            "www.plentyflora.co.nz",
-            "1",
-            "Agriculture",
-            "114",
-            "Floriculture Production (Under Cover)"
-        ],
-        [
-            "www.slatersorchids.co.nz",
-            "1",
-            "Agriculture",
-            "114",
-            "Floriculture Production (Under Cover)"
-        ],
-        [
-            "fungal.co.nz",
-            "1",
-            "Agriculture",
-            "121",
-            "Mushroom Growing"
-        ],
-        [
-            "houseoffungi.com",
-            "1",
-            "Agriculture",
-            "121",
-            "Mushroom Growing"
-        ],
-        [
-            "meadowmushrooms.co.nz",
-            "1",
-            "Agriculture",
-            "121",
-            "Mushroom Growing"
-        ],
-        [
-            "mycobio.co.nz",
-            "1",
-            "Agriculture",
-            "121",
-            "Mushroom Growing"
-        ],
-        [
-            "www.ballebros.co.nz",
-            "1",
-            "Agriculture",
-            "121",
-            "Mushroom Growing"
-        ],
-        [
-            "www.parkvale.co.nz",
-            "1",
-            "Agriculture",
-            "121",
-            "Mushroom Growing"
-        ],
-        [
-            "kaimaigreens.co.nz",
-            "1",
-            "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
-        ],
-        [
-            "nzhothouse.co.nz",
-            "1",
-            "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
-        ],
-        [
-            "www.drysdalehydroponics.co.nz",
-            "1",
-            "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
-        ],
-        [
-            "www.lefroyvalley.co.nz",
-            "1",
-            "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
-        ],
-        [
-            "www.libertygrowers.co.nz",
-            "1",
-            "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
-        ],
-        [
-            "www.littlestemmicrogreens.co.nz",
-            "1",
-            "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
-        ],
-        [
-            "www.microfarm.co.nz",
-            "1",
-            "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
-        ],
-        [
-            "www.Premierseeds.co.nz",
-            "1",
-            "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
-        ],
-        [
-            "www.rupex.co.nz",
-            "1",
-            "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
-        ],
-        [
-            "www.sst.co.nz",
-            "1",
-            "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
-        ],
-        [
-            "www.superbherb.co.nz",
-            "1",
-            "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
-        ],
-        [
-            "www.urbanroots.co.nz",
-            "1",
-            "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
-        ],
-        [
-            "www.waihekeherbs.co.nz",
-            "1",
-            "Agriculture",
-            "122",
-            "Vegetable Growing (Under Cover)"
-        ],
-        [
-            "Amuritruffiere.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "littlefarmsnz.com",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "misty-valley-veg-limited.business.site",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "northlandnaturals.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "organicfarmnz.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "piwakawakavalley.com",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "salty-river-farm-shop.myshopify.com",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "southernfresh.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.allengorthy.com",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.asparapacific.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.ferrettigrowers.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.goldbushmicrofarm.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.jsewers.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.kaitakefarm.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.kerikeriorganic.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.kimyoungandsons.com",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.kiwigreensurbanfarms.com",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.laughingpukeko.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.luxorganics.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.oakleys.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.oamaruorganics.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
         ]
     ],
-    "Inprogress": [
-        [
-            "www.sofresh.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.trueearth.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.vagabondvege.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.vedicorganics.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.waikawafresh.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "www.wrightsprouts.co.nz",
-            "1",
-            "Agriculture",
-            "123",
-            "Vegetable Growing (Outdoors)"
-        ],
-        [
-            "babichwines.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "burncottage.com",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "cambridgeroad.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "daywen-vineyard-grapejuice-and-organically-grown-grapes.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "eightranges.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "escarpment.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "stonecutter.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "takamatuavalley.com",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.batchwinery.com",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.blackquail.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.brodieestate.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.burntspur.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.corbansviticulture.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.craggyrange.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.dayvinleigh.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.dunnolly.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.flaxmore.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.grapevision.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.greystonewines.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.hintons.net.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.hopesgrove.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.karakapointvineyard.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.kinacliffs.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.larcombvineyard.co",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.longviewwines.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.maoripoint.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.meltonestate.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.owhanake.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.pinehilllodge.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.pisarangeestate.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.pondpaddock.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.qwine.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.riverrockestate.com",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.rivertestate.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.rubybayvineyard.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.sloanviticulture.com",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.soundsconnection.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.southdown.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.takatulodge.co.nz",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ],
-        [
-            "www.tekanoestate.com",
-            "1",
-            "Agriculture",
-            "131",
-            "Grape Growing"
-        ]
-    ]
+    "Inprogress": []
 }
