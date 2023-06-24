@@ -4,58 +4,65 @@ from scripts.fileManager import *
 from scripts.scrapedDomainsTracker import *
 import threading
 
+inputCsv = "data/inputData.csv"
+tracker = scrapedDomainTracker(inputCsv)
+branchDepth = 50  # how
+timeOut = 1500  # seconds
 
-tracker = scrapedDomainTracker()
-branchDepth = 100  # how
-timeOut = 1000  # seconds
+csvData = readCsvFile(inputCsv).pop(0)
 
-# csvData = readCsvFile("data/inputData.csv").pop(0)
-# driver(["https://greypower.co.nz/"], "n", 1, 20)
-# if get_csv_length("data/data.csv") == 0:
-#     outputData.firstLineCsv()
-url = ["christmastrees.co.nz"]
-
-driver(url, "test", 100, 1000).scrapeDomain()
-# def startDriver(
-#     idx,
-#     domainCompleted=True,
-# ):  # run this function in the thread
-#     while tracker.data["Incompleted"]:
-#         if domainCompleted:
-#             domain, onComplete = tracker.selectDomain()
-#             domainCompleted == False
-#             # try:
-#             driver(
-#                 ["christmastrees.co.nz"], f"thread{idx}", branchDepth, timeOut
-#             ).scrapeDomain()
-#             domainCompleted = True
-#             onComplete()
-#             tracker.saveData()
-#             # except:
-#             print("=========================webdriver failed=========================")
-#             print("=========================webdriver failed=========================")
-#             print("=========================webdriver failed=========================")
-#             print("=========================webdriver failed=========================")
-#             print("=========================webdriver failed=========================")
-#             print("=========================webdriver failed=========================")
-#             print("=========================webdriver failed=========================")
+if get_csv_length("data/data.csv") == 0:
+    outputData.firstLineCsv()
 
 
-# startDriver("test")
-# def runThreads(target, threadCount):
-#     threadArr = []
-#     if len(tracker.data["Incompleted"]) < threadCount:
-#         threadCount = len(tracker.data["Incompleted"])
-#     for i in range(threadCount):
-#         threadArr.append(threading.Thread(target=target, args=(i,)))
+def startDriver(
+    idx,
+    domainCompleted=True,
+):
+    while tracker.data["Incompleted"]:
+        if domainCompleted:
+            domain, onComplete = tracker.selectDomain()
+            domainCompleted == False
+            goodResponse, protocal = statusCode(domain[0])
 
-#     for i in threadArr:
-#         i.start()
-#     for i in threadArr:
-#         i.join()
+            if goodResponse:
+                driver(
+                    domain, protocal, f"thread{idx}", branchDepth, timeOut
+                ).scrapeDomain()
+                domainCompleted = True
+                onComplete()
+                tracker.saveData()
+
+            else:
+                updateCsv(domain, "data/badResponse.csv")
+                domainCompleted = True
+                onComplete()
+                tracker.saveData()
+
+            # except:
+            print("=========================webdriver failed=========================")
+            print("=========================webdriver failed=========================")
+            print("=========================webdriver failed=========================")
+            print("=========================webdriver failed=========================")
+            print("=========================webdriver failed=========================")
+            print("=========================webdriver failed=========================")
+            print("=========================webdriver failed=========================")
 
 
-# runThreads(startDriver, 25)  # main loop
+def runThreads(target, threadCount):
+    threadArr = []
+    if len(tracker.data["Incompleted"]) < threadCount:
+        threadCount = len(tracker.data["Incompleted"])
+    for i in range(threadCount):
+        threadArr.append(threading.Thread(target=target, args=(i,)))
+
+    for i in threadArr:
+        i.start()
+    for i in threadArr:
+        i.join()
+
+
+runThreads(startDriver, 150)  # main loop
 # tracker.resetInprogress()
 # runThreads(startDriver, 10)  # clean up #stuck in progress
 # tracker.resetInprogress()
@@ -66,4 +73,4 @@ driver(url, "test", 100, 1000).scrapeDomain()
 # runThreads(startDriver, 3)  # clean up #stuck in progress
 # startDriver("no threads running")
 
-# print("Program completed.")
+print("Program completed.")

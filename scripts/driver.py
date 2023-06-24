@@ -7,48 +7,53 @@ from urllib.parse import urlparse, urlunparse
 import time
 from scripts.tree import *
 from scripts.outputData import *
+import random
 
 
 class driver:
-    def __init__(self, data, idx, branchSize=100, timeOutAfter=1000) -> None:
+    def __init__(self, data, protocal, idx, branchSize=100, timeOutAfter=1000) -> None:
         self.idx = idx
         self.driver = self.configDriver()
         self.keywords = [
             prepareString(word) for word in fileManager("keywords.json").loadData()
         ]
+        self.wildCards = [
+            word[1:]
+            for word in list(filter(lambda word: word.startswith("*"), self.keywords))
+        ]
+
+        self.keywords = list(
+            filter(lambda word: not word.startswith("*"), self.keywords)
+        )
+
         self.tree = tree(branchSize)
         self.startTime = time.time()
         self.timeOutAfter = timeOutAfter
         self.timeout = False
         self.link = data[0]
+        self.protocal = protocal
+        self.data = data
 
         self.visitedUrls = []
         self.textWithKeyWords = []
         self.internalLinks = []
         self.failedToGetUrl = []
 
-        self.data = data
         self.newDomain(self.link)
         self.getPageData(self.domain)
-        time.sleep(0.5)
+        time.sleep(1)
 
     def scrapeDomain(self):
         self.iterateThroughInternalLinks()
         self.close()
-        # duplicatetext = self.textWithKeyWords[:]
-        # self.textWithKeyWords = removeDuplicateFromTextWithKeyWords(
-        #     self.textWithKeyWords
-        # )
-        # if self.textWithKeyWords:
-        #     outputData(
-        #         self.textWithKeyWords,
-        #         self.domain,
-        #         self.data,
-        #         self.keywords,
-        #         duplicatetext,
-        #     )
-        print("saving")
-        fileManager(f"{self.idx}.json", [self.textWithKeyWords, "testing"]).save()
+
+        if self.textWithKeyWords:
+            outputData(
+                self.data,
+                self.domain,
+                self.textWithKeyWords,
+                self.keywords,
+            )
 
     def getRunTime(self):
         if (time.time() - self.startTime) > self.timeOutAfter:
@@ -63,84 +68,63 @@ class driver:
 
     def newDomain(self, url):
         self.url = url
-        print(self.url)
-
         try:
-            self.driver.get("https://" + url)
-            self.domain = "https://" + url
+            self.driver.get(self.protocal + url)
+            self.domain = self.protocal + url
         except:
-            self.driver.get("http://" + url)
-            self.domain = "http://" + url
+            print("failed to get url")
 
         self.parseHtml()
 
     def openUrl(self, url):
-        if url not in self.visitedUrls:
-            self.url = url
-
-        # try:
-        self.driver.get(url)
-        self.parseHtml()
+        self.url = url
         self.visitedUrls.append(url)
-        return True
+        try:
+            self.driver.get(url)
+            self.parseHtml()
+            return True
 
-    # except:
-    #     print("failed to get url")
-    #     self.failedToGetUrl.append(url)
-    #     self.visitedUrls.append(url)
-    #     return False
+        except:
+            print("failed to get url")
+            self.failedToGetUrl.append(url)
+            return False
 
     def parseHtml(self):
         self.soup = BeautifulSoup(self.driver.page_source, "html.parser")
+        self.soup.prettify()
 
-    # def findTextWithKeyword(self):
-    #     textWithKeyword = {"text": [], "keywords": []}
-    #     for keyword in self.keywords:
-
-    #         def filterByKeyword(tag):
-    #             return keyword in str(tag.string).lower()
-
-    #         text = [text.string for text in self.soup.find_all(filterByKeyword)]
-    #         if text:
-    #             textWithKeyword = textWithKeyword + [
-    #                 text.string for text in text
-    #             ]
-    #             textWithKeyword["keywords"] = textWithKeyword["keywords"] + [keyword]
-
-    #     if textWithKeyword:
-    #         self.textWithKeyWords = self.textWithKeyWords + [
-    #             {
-    #                 "textsWithKeyWords": [
-    #                     textWithKeyword,
-    #                     self.soup.prettify(),
-    #                 ],
-    #                 "page": self.url,
-    #             }
-    #         ]
     def keyWordDictGen(self):
         dict = {}
-        for i in self.keywords:
+        for i in self.keywords + self.wildCards:
             dict[i] = False
         return dict
 
     def findTextWithKeyword(self):
         keywordDict = self.keyWordDictGen()
         textWithKeyword = []
-        tagFilter = ["style"]
+        textWithKeyword
+        tagFilter = ["style", "script", "iframe"]
         for i in self.soup.findAll():
             if i.name not in tagFilter:
-                append = False
+                found = []
+                for word in str(i.text).lower().split(" "):
+                    for keyword in self.keywords:
+                        if keyword == word:
+                            found.append(keyword)
+                            keywordDict[keyword] = True
+                    for wildCard in self.wildCards:
+                        if word.startswith(wildCard):
+                            found.append(wildCard)
+                            keywordDict[wildCard] = True
+                            append = True
 
-                for keyword in self.keywords:
-                    if keyword in str(i.text).lower():
-                        append = keyword
-                        keywordDict[keyword] = True
-
-                if append:
+                if found:
                     for j in textWithKeyword:
                         if i.text in j["text"]:
                             textWithKeyword.remove(j)
-                    textWithKeyword.append({"text": i.text, "tag": i.name})
+                    textWithKeyword.append(
+                        {"text": i.text, "keyword": found, "html": self.soup.prettify()}
+                    )
 
         if textWithKeyword:
             self.textWithKeyWords = self.textWithKeyWords + [
@@ -160,6 +144,12 @@ class driver:
                 and href
                 and " " not in href
                 and "@" not in href
+                and "#" not in href
+                and "=" not in href
+                and "%" not in href
+                and "&" not in href
+                and "+" not in href
+                and ":" not in href.replace("://", "")
             ):
                 url = self.getFullUrl(href)
                 if url == True:
@@ -168,46 +158,48 @@ class driver:
                     if "https" in url[4:]:
                         a, b = chopchop(url)
                         internalLinks.append(a)
-                        internalLinks.append(b)
+
                     else:
                         internalLinks.append(url)
 
         self.internalLinks = self.internalLinks + internalLinks
 
+    def sortInternalLinks(self):
+        self.internalLinks = list(set(self.internalLinks))
+        self.internalLinks = [
+            i for i in self.internalLinks if i not in self.visitedUrls
+        ]
+        self.internalLinks = sorted(self.internalLinks, key=lambda x: len(x.split("/")))
+
     def getPageData(self, url):
         goturl = self.openUrl(url)
-        if goturl:
-            self.findTextWithKeyword()
-            self.getInternalLinks()
-            return goturl
 
-    def iterateThroughInternalLinks(self, recusions=0):
-        self.tree.saveTreeJson()
-        self.getRunTime()
-        if self.timeout:
-            print(
-                f"timeout",
-            )
-            return
-        else:
+        self.findTextWithKeyword()
+        self.getInternalLinks()
+        return goturl
+
+    def iterateThroughInternalLinks(self):
+        recusions = 0
+        while self.internalLinks:
+            self.getRunTime()
+            if self.timeout:
+                print("timeout")
+                break
             recusions += 1
-            while self.internalLinks and not self.timeout:
-                if self.internalLinks[0] not in self.visitedUrls:
-                    goturl = self.getPageData(self.internalLinks[0])
-                    if goturl:
-                        print(
-                            "idx  :",
-                            self.internalLinks[0],
-                            "recursion  :",
-                            recusions,
-                            "links :",
-                            len(self.internalLinks),
-                        )
-                        self.iterateThroughInternalLinks(recusions)
-                try:
-                    self.internalLinks.pop(0)
-                except:
-                    print("list probably empty")
+            self.getPageData(self.internalLinks[0])
+            if self.internalLinks:
+                self.visitedUrls.append(self.internalLinks[0])
+                if self.internalLinks:
+                    print(
+                        "idx  :",
+                        self.internalLinks[0],
+                        "recursion  :",
+                        recusions,
+                        "links :",
+                        len(self.internalLinks),
+                    )
+            self.internalLinks.pop(0)
+            self.sortInternalLinks()
 
     def close(self):
         self.driver.quit()

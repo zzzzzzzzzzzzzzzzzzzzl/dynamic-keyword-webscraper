@@ -3,18 +3,21 @@ from scripts.functions import *
 
 
 class scrapedDomainTracker:
-    def __init__(self) -> None:
+    def __init__(self, csv) -> None:
         self.fileManager = fileManager("scrapedDomain.json")
         self.data = self.fileManager.loadData()
         if self.data:
             self.resetInprogress()
         else:
-            self.loadInData("data/inputData.csv")
+            self.loadInData(csv)
             self.saveData()
 
     def loadInData(self, file):
-        sites = [i for i in readCsvFile(file)]
-        sites.pop(0)
+        sites = readCsvFile(file)
+
+        for i in sites:
+            if i == [" "]:
+                sites.remove(i)
         self.data = {
             "Completed": [],
             "Incompleted": sites,

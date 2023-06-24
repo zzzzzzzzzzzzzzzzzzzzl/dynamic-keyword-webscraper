@@ -1,10 +1,11 @@
 from scripts.fileManager import *
+import time
 
 
 # this is kind of cool, it maps out the entire website from the links
 class tree:
     def __init__(self, branchSize) -> None:
-        self.tree = {"visted": True}
+        self.tree = {}
         self.branchSize = branchSize
         pass
 
@@ -13,20 +14,11 @@ class tree:
         tree = self.tree
         for i in arr:
             if i not in tree:
-                tree[i] = {"visted": False}
+                tree[i] = {}
+            tree["branches"] = len(tree) - 1
             if len(tree[i]) > self.branchSize:
                 return True
             tree = tree[i]
-
-    def visitLink(self, link):
-        print(link, "jere")
-        arr = link.split("/")[4:]
-        tree = self.tree
-
-        for idx, i in enumerate(arr):
-            tree = tree[i]
-            if idx == (len(arr) - 1):
-                tree["visted"] = True
 
     def saveTreeJson(self):
         fileManager("tree.json", self.tree).save()

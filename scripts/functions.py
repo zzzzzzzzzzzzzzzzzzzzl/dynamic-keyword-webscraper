@@ -1,8 +1,47 @@
 from scripts.fileManager import *
 import json
 import ast
+import requests
+
 
 unwantedCharacters = [" ", "-"]
+badResponse = [400, 401, 403, 404, 500, 503]
+
+
+def test():
+    r = requests.get("http://waihekenativeplants.que.tm")
+    print(r.status_code)
+
+
+def updateCsv(data, file):
+    with open(file, mode="a", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerow(data)
+
+
+def statusCode(url):
+    http = "http://" + url
+    https = "https://" + url
+    protocal = None
+
+    try:
+        response = requests.get(https)
+
+        if response.status_code in badResponse:
+            value = False
+        protocal = "https://"
+        value = True
+    except:
+        try:
+            response = requests.get(http)
+
+            if response.status_code in badResponse:
+                value = False
+            protocal = "http://"
+            value = True
+        except:
+            value = False
+    return value, protocal
 
 
 def prepareString(string):
@@ -35,64 +74,6 @@ def updateCsv(data, file):
         writer.writerow(data)
 
 
-def removeDuplicateFromTextWithKeyWords(arr):
-    arr = sorted(arr, key=lambda x: len(x["textsWithKeyWords"]["text"]))
-
-    def ifInSet(set, arr):
-        newArr = []
-
-        for i in arr:
-            if i not in set:
-                newArr.append(i)
-        return newArr
-
-    for i in range(len(arr)):
-        for j in range(len(arr)):
-            if i != j:
-                common = set(arr[i]["textsWithKeyWords"]["text"]).intersection(
-                    set(arr[j]["textsWithKeyWords"]["text"])
-                )
-                if common:
-                    arr[i]["textsWithKeyWords"]["text"] = ifInSet(
-                        common, arr[i]["textsWithKeyWords"]["text"]
-                    )
-    for i in arr:
-        i["textsWithKeyWords"]["text"] = list(set(i["textsWithKeyWords"]["text"]))
-        if not i["textsWithKeyWords"]["text"]:
-            arr.remove(i)
-    arr = sorted(arr, key=lambda x: len(x["textsWithKeyWords"]["text"]), reverse=True)
-
-    return arr
-
-
-def getBoolKeywordsAndFlattenText(data):
-    textArr = []
-    boolkeywords = {}
-    keywords = [prepareString(word) for word in fileManager("keywords.json").loadData()]
-    for i in keywords:
-        boolkeywords[i] = False
-    for i in keywords:
-        for j in data:
-            for k in j["textsWithKeyWords"]["text"]:
-                if i in k:
-                    boolkeywords[i] = True
-    boolkeywords = list(boolkeywords.values())
-    return boolkeywords
-
-
-def getBoolKeywordsPage(data):
-    boolkeywords = {}
-    keywords = [prepareString(word) for word in fileManager("keywords.json").loadData()]
-    for i in keywords:
-        boolkeywords[i] = False
-    for i in keywords:
-        for k in data["text"]:
-            if i in k:
-                boolkeywords[i] = True
-    boolkeywords = list(boolkeywords.values())
-    return boolkeywords
-
-
 def chopchop(string):
     string = string[4:]
     substring = "https://"
@@ -107,3 +88,27 @@ def get_csv_length(file_path):
         reader = csv.reader(file)
         data = list(reader)
         return len(data)
+
+
+def getDomainKeywords(arr):  # input text with keywords arr
+    newArr = []
+    keyWordDict = arr[0]["keywords"]
+    for i in arr:
+        for j in i["textsWithKeyWords"]:
+            newArr.append(j["text"])
+        for j in i["keywords"]:
+            if i["keywords"][j]:
+                keyWordDict[j] = True
+    keywords = [keyWordDict[i] for i in keyWordDict]
+
+    return newArr, keywords
+
+
+def getpageKeywords(arr):
+    newArr = []
+
+    for j in arr["textsWithKeyWords"]:
+        newArr.append(j["text"])
+    keywords = [arr["keywords"][i] for i in arr["keywords"]]
+
+    return newArr, keywords, arr["page"]

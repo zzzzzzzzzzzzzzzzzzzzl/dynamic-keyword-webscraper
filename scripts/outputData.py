@@ -4,40 +4,33 @@ from scripts.functions import *
 import csv
 
 
-def join(arr):
-    newArr = []
-    for i in arr:
-        newArr = newArr + i["textsWithKeyWords"]["text"]
-    return "\n".join(list(set(newArr)))
-
-
 class outputData:
-    def __init__(self, data, domain, domainData, keywords, duplicateText) -> None:
-        print("saving output data" + domain)
-        self.doaminaData = domainData
-        self.keywords = fileManager("keywords.json").loadData()
+    def __init__(self, data, domain, textWithKeyWords, keywords) -> None:
         self.data = data
-        self.string = join(data)[:6000]
+        self.doamina = domain
+        self.keywords = keywords
+        self.textWithKeyWords = textWithKeyWords
+        self.data = data
+        self.domainInput()
+        self.pageInput()
+
+    def domainInput(self):
+        text, keywords = getDomainKeywords(self.textWithKeyWords)
+        self.string = text[:6000]
         response = chatApiCall(
             self.prompt(),
             1,
         )
 
         content = response["choices"][0]["message"]["content"]
-        boolkeywords, textArr = getBoolKeywordsAndFlattenText(data)
-        "/////".join(textArr)
-        self.outputcsv = domainData + [content] + ["/////".join(textArr)] + boolkeywords
-        self.updateCsv(self.outputcsv)
-        for i in duplicateText:
-            boolkeywordspage = getBoolKeywordsPage(i["textsWithKeyWords"])
-            self.outputcsv = (
-                [i["page"]]
-                + domainData[1:]
-                + ["na"]
-                + ["/////".join(i["textsWithKeyWords"]["text"])]
-                + boolkeywordspage
-            )
-            self.updateCsv(self.outputcsv)
+        inputData = self.data + [content] + [text] + [keywords]
+        self.updateCsv(inputData)
+
+    def pageInput(self):
+        for i in self.textWithKeyWords:
+            text, keywords, page = getpageKeywords(i)
+            inputData = [page] + self.data[1:] + ["na"] + [text] + [keywords]
+            self.updateCsv(inputData)
 
     def prompt(self):
         return (
@@ -47,21 +40,12 @@ class outputData:
     def updateOutputFile(self, data):
         fileManager("outputFile.json").updateFile(data)
 
-    # def flattenData(self):
-    #     return [
-    #         [self.inputData[0]["domain"]],
-    #         [self.inputData[0]["quotes"]],
-    #         [self.inputData[0]["pagesWithKeywords"]["text"][0]],
-    #         [self.inputData[0]["pagesWithKeywords"]["text"][1]],
-    #         [self.inputData[0]["pagesWithKeywords"]["url"]],
-    #     ]
-
     def updateCsv(self, data):
         with open("data/data.csv", mode="a", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
             writer.writerow(data)
 
-    def firstLineCsv():
+    def firstLineCsv(self):
         line = [
             "www",
             "ANZSIC06_2Digit",
