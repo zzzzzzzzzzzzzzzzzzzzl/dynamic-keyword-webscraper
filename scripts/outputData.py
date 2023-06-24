@@ -6,6 +6,7 @@ import csv
 
 class outputData:
     def __init__(self, data, domain, textWithKeyWords, keywords) -> None:
+        print("saving output")
         self.data = data
         self.doamina = domain
         self.keywords = keywords

@@ -76,7 +76,7 @@ def runThreads(target, threadCount):
         i.join()
 
 
-runThreads(startDriver, 150)  # main loop
+runThreads(startDriver, 45)  # main loop
 # tracker.resetInprogress()
 # runThreads(startDriver, 10)  # clean up #stuck in progress
 # tracker.resetInprogress()
