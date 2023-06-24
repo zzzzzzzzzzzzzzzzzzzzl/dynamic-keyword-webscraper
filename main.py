@@ -24,29 +24,43 @@ def startDriver(
             domain, onComplete = tracker.selectDomain()
             domainCompleted == False
             goodResponse, protocal = statusCode(domain[0])
+            try:
+                if goodResponse:
+                    driver(
+                        domain, protocal, f"thread{idx}", branchDepth, timeOut
+                    ).scrapeDomain()
+                    domainCompleted = True
+                    onComplete()
+                    tracker.saveData()
 
-            if goodResponse:
-                driver(
-                    domain, protocal, f"thread{idx}", branchDepth, timeOut
-                ).scrapeDomain()
-                domainCompleted = True
-                onComplete()
-                tracker.saveData()
+                else:
+                    updateCsv(domain, "data/badResponse.csv")
+                    domainCompleted = True
+                    onComplete()
+                    tracker.saveData()
 
-            else:
-                updateCsv(domain, "data/badResponse.csv")
-                domainCompleted = True
-                onComplete()
-                tracker.saveData()
-
-            # except:
-            print("=========================webdriver failed=========================")
-            print("=========================webdriver failed=========================")
-            print("=========================webdriver failed=========================")
-            print("=========================webdriver failed=========================")
-            print("=========================webdriver failed=========================")
-            print("=========================webdriver failed=========================")
-            print("=========================webdriver failed=========================")
+            except:
+                print(
+                    "=========================webdriver failed========================="
+                )
+                print(
+                    "=========================webdriver failed========================="
+                )
+                print(
+                    "=========================webdriver failed========================="
+                )
+                print(
+                    "=========================webdriver failed========================="
+                )
+                print(
+                    "=========================webdriver failed========================="
+                )
+                print(
+                    "=========================webdriver failed========================="
+                )
+                print(
+                    "=========================webdriver failed========================="
+                )
 
 
 def runThreads(target, threadCount):
