@@ -30,7 +30,7 @@ class outputData:
     def pageInput(self):
         for i in self.textWithKeyWords:
             text, keywords, page = getpageKeywords(i)
-            inputData = [page] + self.data[1:] + ["na"] + [text] + [keywords]
+            inputData = [page] + self.data[1:] + ["na"] + [text] + keywords
             self.updateCsv(inputData)
 
     def prompt(self):
