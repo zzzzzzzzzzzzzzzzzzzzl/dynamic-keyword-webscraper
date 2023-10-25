@@ -6,13 +6,11 @@ from scripts.functions import *
 from urllib.parse import urlparse, urlunparse
 import time
 from scripts.tree import *
-from scripts.outputData import *
 import random
 
 
 class driver:
-    def __init__(self, data, protocal, idx, branchSize=100, timeOutAfter=1000) -> None:
-        self.idx = idx
+    def __init__(self, data, protocal, branchSize=100, timeOutAfter=1000) -> None:
         self.driver = self.configDriver()
         self.keywords = [
             prepareString(word) for word in fileManager("keywords.json").loadData()
